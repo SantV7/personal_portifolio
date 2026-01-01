@@ -7,9 +7,8 @@ import '../../style/header/btnIcons.css'
 
 const Header = () => {
 
-const [menuopen, setMenuOpen] = useState(true)
+const [menuOpen, setMenuOpen] = useState(true)
 
-                //   Fazer os icons do menu Mobile.
 
     return(
         <>
@@ -18,18 +17,16 @@ const [menuopen, setMenuOpen] = useState(true)
                 <h1>Portfólio</h1>
             </div>
             
-         
-            <div onClick={() => setMenuOpen(!menuopen)} id="menubar">
+            
+            <div onClick={() => setMenuOpen(!menuOpen)} id="menubar">
                 {
-                    menuopen
-                    ? <FaBars />
-                    : <IoClose id="close_buton" />
+                  menuOpen
+                  ? <FaBars />
+                  : <IoClose id="close_buton" />
                 }
             </div>
-        
-         <Navbar />
-         
-         
+
+            <Navbar />
          </header>
         </>
     )

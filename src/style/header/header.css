@@ -8,7 +8,7 @@ header {
 header > .logo {
     font-size: 17.5px;
     color: rgb(28, 41, 78);
-    margin-bottom: 10px;
+    margin-bottom: 14.5px;
 }
 
 header > nav {
@@ -17,6 +17,7 @@ header > nav {
 
 header > #menubar {
     font-size: 25px;
+    margin-top: -5.5px;
     cursor: pointer;
 }
 

@@ -4,7 +4,6 @@ import BtnContact from "../navbar/BtnContact"
 
 const Navbar = () => {
 
-
     return(
         <>
         <nav>
