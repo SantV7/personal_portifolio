@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react"
-
+import '../../style/header/btnChangeTheme.css'
+import { IoMoon } from "react-icons/io5";
+import { PiSunLight } from "react-icons/pi";
 const BtnChangeTheme =() => {
+
 
     const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
 
@@ -29,8 +32,12 @@ const BtnChangeTheme =() => {
 
     return(
         <>
-         <button onClick={() => setThemeDefaultWhite(!themeDefaultWhite)}>
-            icon to change
+         <button aria-description="mudar tema" id="btn_change_theme" onClick={() => setThemeDefaultWhite(!themeDefaultWhite)}>
+            {
+               themeDefaultWhite
+               ? <IoMoon className="iconChangeTheme" />
+               : <PiSunLight className="iconChangeTheme" id="sunIcon"/>
+            }
          </button>
         </>
     )

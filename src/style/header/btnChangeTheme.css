@@ -1,0 +1,11 @@
+#btn_change_theme {
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+#sunIcon {
+    color: white;
+   
+}
