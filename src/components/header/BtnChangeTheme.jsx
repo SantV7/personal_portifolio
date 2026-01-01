@@ -2,12 +2,30 @@ import { useEffect, useState } from "react"
 
 const BtnChangeTheme =() => {
 
-    window.document.body.style.backgroundColor = 'white'
-    const [themeDefaultWhite, setThemeDefaultWhite] = useState(false)
+    const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
+
+    if (themeDefaultWhite == true){
+       useEffect(() => {
+          window.document.body.style.backgroundColor = 'white'
+        },[ themeDefaultWhite])       
+    }
+    else {
+       useEffect(() => {
+          window.document.body.style.backgroundColor = 'black'
+       },[themeDefaultWhite])             
+    }
 
     useEffect(() => {
-        window.document.body.style.backgroundColor = 'black'
-    }, [themeDefaultWhite])
+        
+    },[ themeDefaultWhite])
+
+
+
+
+
+
+
+
 
     return(
         <>

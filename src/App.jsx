@@ -3,7 +3,6 @@ import './style/global.css'
 import Header from './components/header/Header'
 
 function App() {
- 
 
   return (
     <>
