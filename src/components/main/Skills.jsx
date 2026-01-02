@@ -4,6 +4,7 @@ import { FaJsSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";7
 import { FaGitAlt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { FaArrowTurnDown } from "react-icons/fa6";
 import '../../style/main/skills.css'
 
 
@@ -25,8 +26,10 @@ const Skills = () => {
             <div><FaJsSquare className="icons_skills" id="icon_js" /></div>
             <div><FaReact className="icons_skills" id="icon_react"/></div>
             <div><FaGitAlt className="icons_skills" id="icon_git"/></div>
-            <div><a href="https://github.com/SantV7"><FaGithub className="icons_skills" id="icon_github"/>
-            </a></div>
+            <div id="box-github">
+                <FaArrowTurnDown id="arrow_to_github" />
+                <a href="https://github.com/SantV7"><FaGithub className="icons_skills" id="icon_github"/></a>
+            </div>
         </div>
         
         </>

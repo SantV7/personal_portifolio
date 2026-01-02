@@ -9,7 +9,7 @@ const BtnChangeTheme =() => {
 
     if (themeDefaultWhite == true) {
        useEffect(() => {
-          document.body.style.backgroundColor = 'white'
+          document.body.style.backgroundColor = '#f6f6feff'
           document.body.style.color = 'black'
         },[ themeDefaultWhite])       
     }
