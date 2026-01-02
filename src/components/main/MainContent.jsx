@@ -1,10 +1,8 @@
 import '../../style/main/mainContent.css'
 import { LuArrowBigDownDash } from "react-icons/lu";
-import '../../style/main/my_img.css'
+import Skills from './Skills';
 const MainContent = () => {
 
-
-  
 
   
     return(
@@ -17,10 +15,13 @@ const MainContent = () => {
                  <p>Gosto bastante de tecnologia e informática. Comecei a estudar a cerca de 1 ano e meio. Porém só agora eu comecei a praticar em projetos reais.</p>
               </div>
             </section>
+
+            <section id='skills_container'>
+              <Skills />
+            </section>
           </main>
         </>
     )
 }
-
 
 export default MainContent
