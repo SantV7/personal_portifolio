@@ -7,15 +7,17 @@ const BtnChangeTheme =() => {
 
     const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
 
-    
-    if (themeDefaultWhite == true){
+    if (themeDefaultWhite == true) {
        useEffect(() => {
-          window.document.body.style.backgroundColor = 'white'
+          document.body.style.backgroundColor = 'white'
+          document.body.style.color = 'black'
         },[ themeDefaultWhite])       
     }
     else {
        useEffect(() => {
-          window.document.body.style.backgroundColor = 'black'
+         
+          document.body.style.backgroundColor = '#1c1a23ff'
+          document.body.style.color = 'white'
        },[themeDefaultWhite])             
     }
 

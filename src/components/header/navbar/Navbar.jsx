@@ -3,11 +3,12 @@ import BtnChangeTheme from '../BtnChangeTheme'
 import BtnContact from "../navbar/BtnContact"
 
 const Navbar = () => {
-
+   
+   
     return(
         <>
         <nav>
-            <ul>
+            <ul id={ul_itens}>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Sobre</a></li>
@@ -21,3 +22,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+export let ul_itens = document.getElementById('#ul_itens')
