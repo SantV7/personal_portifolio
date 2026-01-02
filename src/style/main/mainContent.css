@@ -1,0 +1,49 @@
+main {
+    margin-top: 135px;
+}
+
+.infoContent {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.text_about_me {
+    width: 305px;
+}
+.text_about_me > p {
+    font-size: 17px;
+}
+
+.text_about_me > h3 {
+    font-size: 20.3px;
+    margin-bottom: 15.5px;
+}
+
+
+#arrow_me {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: -9px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    
+    .text_about_me {
+        width: 430px;
+    }
+    
+    .text_about_me > h3 {
+        margin-left: -21px;
+    }
+
+    #arrow_me {
+        color: rgb(103, 90, 250);
+    }
+
+
+}
