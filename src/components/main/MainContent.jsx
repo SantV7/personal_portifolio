@@ -3,8 +3,8 @@ import { LuArrowBigDownDash } from "react-icons/lu";
 import Skills from './Skills';
 import ScrollReveal from "scrollreveal";
 
-
 const MainContent = () => {
+
 
    ScrollReveal().reveal('.text_about_me' ,{
     reset: true ,
@@ -12,14 +12,12 @@ const MainContent = () => {
     delay: 50
    })
 
-
    ScrollReveal().reveal('#skills_container' ,{
     reset: true , 
     duration: 840 ,
     delay: 170
    })
 
-  
 
 
 
