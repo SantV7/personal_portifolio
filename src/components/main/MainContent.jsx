@@ -20,11 +20,10 @@ const MainContent = () => {
 
 
 
-
     return(
         <>
           <main>
-            <section  className='infoContent'>
+            <section className='infoContent'>
                <div className='text_about_me'>
                   <h3>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3>
                   <p>Me chamo Vinícius. Tenho 18 anos.</p>
