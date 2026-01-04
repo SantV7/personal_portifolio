@@ -11,12 +11,10 @@ import '../../style/main/skills.css'
 const Skills = () => {
 
 
-
-
     
     return(
         <>
-         <div>
+         <div className="logo_skills">
              <h3>Skills</h3>
          </div>
             

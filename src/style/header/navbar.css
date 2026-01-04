@@ -13,10 +13,9 @@ nav > ul > li > a {
     padding: 7px;
     border-radius: 10px;
     font-weight: 550;
-    transition: ease 0.22s;
-    
+    transition: ease 0.27s;
 }
 
 nav > ul > li > a:hover {
-    background-color: rgba(17, 17, 97, 0.118);
+    background-color: rgba(17, 17, 97, 0.183);
 }
