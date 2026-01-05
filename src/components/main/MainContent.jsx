@@ -9,7 +9,7 @@ const MainContent = () => {
    ScrollReveal().reveal('.text_about_me' ,{
     reset: true ,
     duration: 1340 ,
-    delay: 50
+    delay: 120
    })
 
    ScrollReveal().reveal('#skills_container' ,{
