@@ -1,10 +1,7 @@
-nav{
+nav {
     margin-bottom: -8px;
 }
-nav > ul {
-    display: flex;
-    gap: 47px;
-}
+
 nav > ul > li {
     list-style: none;
 }

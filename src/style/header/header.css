@@ -16,8 +16,23 @@ header > .logo {
     margin-bottom: 14.5px;
 }
 
-header > nav {
+#btn_contact {
     display: none;
+}
+
+header > nav > ul {
+    background-color: rgb(216, 219, 246);
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px;
+    position: absolute;
+    top: 84.5px;
+    padding-left: 4px;
+    left: 0;
+    display: flex;
+    height: 100vh;
+    gap: 1.5rem;
+    flex-flow: column nowrap;
 }
 
 header > #menubar {
@@ -25,24 +40,39 @@ header > #menubar {
     margin-top: -5.5px;
     cursor: pointer;
 }
+.iconChangeTheme {
+    display: none;
+}
 
 
 @media screen and (min-width: 768px) {
     header > #menubar {
         display: none;
     }
-    
+
+    .iconChangeTheme {
+        display: block;
+    }
+
+    #btn_contact  {
+        display: block;
+    }
 
    header > nav {
        display: block;
    }
+
+   header > nav > ul { 
+      position:sticky;
+      background-color: transparent;
+      display: flex;
+      gap: 50px;
+      flex-flow: row nowrap;
+    }
 }
 
 @media screen and (min-width: 950px) {
-
-    header > nav > ul {
-        gap: 50px;
-    }
+    
 
     #btn_contact {
         margin-right: 5px;
