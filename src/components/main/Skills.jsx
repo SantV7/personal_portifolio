@@ -1,7 +1,7 @@
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaGithub } from "react-icons/fa6";7
+import { FaGithub } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaArrowTurnDown } from "react-icons/fa6";
@@ -10,6 +10,7 @@ import '../../style/main/skills.css'
 
 
 const Skills = () => {
+
 
 
     
