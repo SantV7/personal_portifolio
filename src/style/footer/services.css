@@ -4,6 +4,7 @@ footer {
     margin-top: 300px;
     text-align: center;
 }
+
 footer > #services_info { 
     display: flex;
     align-items: center;
@@ -20,10 +21,12 @@ footer > #services_info > p {
     border-bottom: 3px solid transparent;    
     width: 160px;
 }
+
 footer > #services_info  > p:hover {
     width: 250px;
     border-bottom: 3px solid rgb(56, 56, 236);
 }
+
 footer > #services_info > span {
     font-size: 25px;
     border-bottom: 3px solid orange;
@@ -38,6 +41,7 @@ footer > #area_icons_contact {
     gap: 70px;
     padding: 30px 30px;
 }
+
 footer > #area_icons_contact > .icons_contact {
     transition:  ease 0.4s;
     cursor: pointer;

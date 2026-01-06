@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 const MainContent = () => {
 
 
+
    useEffect(() => {
       ScrollReveal().reveal('.text_about_me' ,{
          reset: true ,
@@ -19,8 +20,7 @@ const MainContent = () => {
          reset: true , 
          duration: 650
       })
-   }, [])
-
+   },[])
 
 
 

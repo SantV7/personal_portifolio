@@ -2,26 +2,32 @@ import { useEffect, useState } from "react"
 import '../../style/header/btnChangeTheme.css'
 import { FaRegMoon } from "react-icons/fa";
 import { PiSunLight } from "react-icons/pi";
-const BtnChangeTheme =() => {
+import Services, { color_footer } from "../footer/Services";
 
+
+
+
+
+const BtnChangeTheme =() => {
+   
 
     const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
-
-
+    
 
     if (themeDefaultWhite == true) {
        useEffect(() => {
           document.body.style.backgroundColor = '#f6f6feff'
           document.body.style.color = 'black'
         },[ themeDefaultWhite])       
-    }
-    else {
+    } else {
        useEffect(() => {
-         
-          document.body.style.backgroundColor = '#1c1a23ff'
-          document.body.style.color = 'white'
+          document.body.style.backgroundColor = '#6e6a7bff'
+          
        },[themeDefaultWhite])             
     }
+
+
+
 
 
     return(
