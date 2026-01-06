@@ -1,8 +1,8 @@
 #btn_contact {
     background-color: rgb(167, 167, 254);
     border: none;
+    margin-top: -9px;
     border-radius: 15px;
-    margin-top: -10px;
     text-align: center;
     transition: ease 0.30s;
     cursor: pointer;
