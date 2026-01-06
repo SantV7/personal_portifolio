@@ -1,6 +1,8 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";import { FaGithub } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaYoutube } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 
 const Services = () => {
@@ -17,8 +19,7 @@ const Services = () => {
                 <FaLinkedin className="icons_contact" />
                 <FaYoutube className="icons_contact" />
                 <FaGithub className="icons_contact" />
-
-
+                <MdEmail className="icons_contact"  />
             </div>
           </footer>
 
