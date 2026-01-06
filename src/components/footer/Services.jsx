@@ -3,6 +3,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import '../../style/footer/services.css'
+import { FaArrowCircleDown } from "react-icons/fa";
 
 
 const Services = () => {
@@ -10,19 +12,31 @@ const Services = () => {
     return(
         <>
           <footer>
-            <div>
-                <p>Para mais serviços</p>
+            <div id="services_info">
+                <p>Para serviços</p>
+                
+            <span>
+              Entre em contato
+            </span>
             </div>
 
-            <div>
-                <FaInstagram className="icons_contact" />
-                <FaLinkedin className="icons_contact" />
-                <FaYoutube className="icons_contact" />
-                <FaGithub className="icons_contact" />
-                <MdEmail className="icons_contact"  />
+            <div id="arrow_indicador">
+              <FaArrowCircleDown size={23}  />
+              <FaArrowCircleDown size={23} />
+              <FaArrowCircleDown size={23} />
+              <FaArrowCircleDown size={23} />
+              <FaArrowCircleDown size={23} />
+            </div>
+
+
+            <div id="area_icons_contact">
+                <FaInstagram className="icons_contact" size={46} />
+                <FaLinkedin className="icons_contact" size={46} />
+                <FaYoutube className="icons_contact" size={46} />
+                <FaGithub className="icons_contact" size={46} />
+                <MdEmail className="icons_contact" size={46}  />
             </div>
           </footer>
-
         </>
     )
 }

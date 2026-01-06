@@ -1,0 +1,63 @@
+
+footer {
+    background-image:linear-gradient( to bottom, rgb(195, 205, 236), rgb(250, 250, 250));
+    margin-top: 300px;
+    text-align: center;
+}
+footer > #services_info { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    flex-flow: column nowrap;
+    padding-bottom: 90px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer > #services_info > p {
+    transition:  ease-in-out 0.70s;
+    border-bottom: 3px solid transparent;    
+    width: 160px;
+}
+footer > #services_info  > p:hover {
+    width: 250px;
+    border-bottom: 3px solid rgb(56, 56, 236);
+}
+
+
+footer > #area_icons_contact {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+    padding: 30px 30px;
+}
+footer > #area_icons_contact > .icons_contact {
+    transition:  ease 0.4s;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 8px;
+}
+
+
+footer > #area_icons_contact > .icons_contact:hover {
+    border-bottom: 3px solid rgb(67, 115, 248);
+}
+
+footer > #arrow_indicador {
+    display: flex;
+    align-items: center;
+    color: rgba(31, 37, 70, 0.873);
+    justify-content: center;
+    gap: 83px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    footer > #arrow_indicador {
+        gap: 310px;
+    }
+}
