@@ -5,13 +5,28 @@ import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import '../../style/footer/services.css'
 import { FaArrowCircleDown } from "react-icons/fa";
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
+
 
 
 const Services = () => {
 
+
+  useEffect(() => {
+    ScrollReveal().reveal('#footer', {
+      reset: true ,
+      duration:960
+    })
+  }, [])
+
+
+
+
+
     return(
         <>
-          <footer>
+          <footer id="footer">
             <div id="services_info">
                 <p>Para serviços</p>
                 

@@ -2,21 +2,28 @@ import '../../style/main/mainContent.css'
 import { LuArrowBigDownDash } from "react-icons/lu";
 import Skills from './Skills';
 import ScrollReveal from "scrollreveal";
+import { useEffect } from 'react';
+
+
 
 const MainContent = () => {
 
 
-   ScrollReveal().reveal('.text_about_me' ,{
-    reset: true ,
-    duration: 1340 ,
-    delay: 120
-   })
+   useEffect(() => {
+      ScrollReveal().reveal('.text_about_me' ,{
+         reset: true ,
+         duration: 1040 ,
+      })
 
-   ScrollReveal().reveal('#skills_container' ,{
-    reset: true , 
-    duration: 840 ,
-    delay: 170
-   })
+      ScrollReveal().reveal('#skills_container' ,{
+         reset: true , 
+         duration: 650
+      })
+   }, [])
+
+
+
+
 
 
 

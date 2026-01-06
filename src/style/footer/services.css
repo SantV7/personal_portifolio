@@ -24,7 +24,11 @@ footer > #services_info  > p:hover {
     width: 250px;
     border-bottom: 3px solid rgb(56, 56, 236);
 }
-
+footer > #services_info > span {
+    font-size: 25px;
+    border-bottom: 3px solid orange;
+    padding-top: 20px;
+}
 
 footer > #area_icons_contact {
     margin-top: 90px;
@@ -56,7 +60,11 @@ footer > #arrow_indicador {
 
 
 @media screen and (min-width:768px) {
-    
+    footer > #services_info > p {
+        width: 195px;
+        font-size: 25px;
+    }
+
     footer > #arrow_indicador {
         gap: 310px;
     }
