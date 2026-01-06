@@ -4,6 +4,7 @@ nav {
 
 nav > ul > li {
     list-style: none;
+    text-align: center;
 }
 
 nav > ul > li > a {

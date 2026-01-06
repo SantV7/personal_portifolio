@@ -21,16 +21,16 @@ header > .logo {
 }
 
 header > nav > ul {
-    background-color: rgb(216, 219, 246);
-    width: 50%;
+    background-color: rgba(216, 219, 246, 0.775);
+    width: 55%;
     border-bottom-right-radius: 10px;
     border-top-right-radius:10px;
     position: absolute;
     top: 84.5px;
-    padding-left: 4px;
-    left: 0;
+    padding:  11px 155px 0px 6px;
+    left: 0px;
     display: flex;
-    height: 100vh;
+    height: 60vh;
     gap: 1.5rem;
     flex-flow: column nowrap;
 }
