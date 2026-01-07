@@ -6,22 +6,25 @@
     background-image:url(../../assets/img/vetor-tech.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-color: rgb(57, 53, 53);
+    background-size: cover;
     border-radius: 10px;
-    width: 94.5%;
-    height: 350px;
+    width: 95.5%;
+    height: 440px;
     margin-top: 345px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.556);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.376);
 }
 
 .logo_skills > h3 {
     text-align: center;
     width: 120px;
     border-bottom: 3px solid rgb(79, 52, 185);
-    margin-bottom: 140px;
+    margin-bottom: 260px;
+    border-radius: 15px;
     color: rgb(6, 6, 6);
+    background-color: rgba(136, 136, 239, 0.921);
     font-size: 30px;
-    transition: ease 0.50s;
+    transition: ease 0.70s;
 }
 
 .logo_skills > h3:hover {
@@ -29,7 +32,10 @@
 }
 
 #area_skills {
-    margin-top: 45px;
+    background-color: rgba(77, 78, 85, 0.953);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
     display: flex;
     gap: 26px;
 }
@@ -39,9 +45,10 @@
     padding-bottom: 7px;
     transition: ease-in-out 0.3s;
     border-bottom: 3px solid transparent;
-    
+    border-radius: 10px;
 }
 .icons_skills:hover {
+    background-color: rgba(40, 38, 46, 0.462);
     border-bottom: 3px solid rgb(84, 84, 246);
 }
 #icon_html {
@@ -81,28 +88,31 @@
     text-decoration: none;
 }
 
+
+
+
+
 @media screen and (min-width:768px) {
 
     #skills_container {
         width: 700px;
-        height: 395px;
-        margin-top: 304px;
+        height: 425px;
+        margin-top: 274px;
     }
 
-    h3 {  
+    .logo_skills {     
         font-size: 33px;
     }
+
     #area_skills {
-        gap: 60px;
+        gap: 75px;
     }
 
     .icons_skills {
-    font-size: 48px;
+        font-size: 48px;
 }
 
-#arrow_to_github {
-    font-size: 48.5px;
-}
-
-
+    #arrow_to_github {
+        font-size: 48.5px;
+    }
 }

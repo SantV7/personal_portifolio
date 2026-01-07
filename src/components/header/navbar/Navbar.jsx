@@ -10,7 +10,6 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li><a className='a_navbar' href="#">Inicio</a></li>
-                <li><a className='a_navbar' href="#">Projetos</a></li>
                 <li><a className='a_navbar' href="#">Serviços</a></li>
                 <BtnChangeTheme />
                 <BtnContact />
