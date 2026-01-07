@@ -7,9 +7,7 @@ import '../../style/header/btnIcons.css'
 
 const Header = () => {
 
-const [menuOpen, setMenuOpen] = useState(true)
-
-
+    const [menuOpen, setMenuOpen] = useState(true)
 
 
 

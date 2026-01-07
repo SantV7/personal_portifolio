@@ -16,23 +16,14 @@ header > .logo {
     margin-bottom: 14.5px;
 }
 
-#btn_contact {
+header > nav {
     display: none;
 }
 
 header > nav > ul {
     background-color: rgba(216, 219, 246, 0.775);
-    width: 55%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius:10px;
-    position: absolute;
-    top: 84.5px;
-    padding:  11px 155px 0px 6px;
-    left: 0px;
-    display: flex;
-    height: 60vh;
-    gap: 1.5rem;
-    flex-flow: column nowrap;
+    display: none;
+    gap: 70px;
 }
 
 header > #menubar {
@@ -43,6 +34,15 @@ header > #menubar {
 .iconChangeTheme {
     display: none;
 }
+
+#btn_contact {
+    display: none;
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -63,19 +63,12 @@ header > #menubar {
    }
 
    header > nav > ul { 
-      position:sticky;
+      
       background-color: transparent;
       display: flex;
-      gap: 50px;
+      gap: 52px;
       flex-flow: row nowrap;
     }
 }
 
-@media screen and (min-width: 950px) {
-    
-
-    #btn_contact {
-        margin-right: 5px;
-    }
-}
 

@@ -37,6 +37,10 @@ const MainContent = () => {
                   <p>Gosto bastante de tecnologia e informática. Comecei a estudar a cerca de 1 ano e meio.
                  Porém só agora eu comecei a praticar em projetos reais.</p>
                </div>
+
+               <div id='personal-img-png'>
+                  
+               </div>
             </section>
 
             <section id='skills_container'>
