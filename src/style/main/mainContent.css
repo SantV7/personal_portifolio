@@ -21,7 +21,6 @@ main > .infoContent {
     width: 325px;
 }
 .text_about_me > p {
-    text-align: justify;
     margin-bottom: 40px;
     font-size: 18.77px;
 }

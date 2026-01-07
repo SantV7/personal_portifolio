@@ -17,7 +17,7 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
-    transition:  ease-in-out 0.70s;
+    transition:  ease 0.70s;
     border-bottom: 3px solid transparent;    
     width: 160px;
 }
@@ -38,15 +38,38 @@ footer > #area_icons_contact {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 70px;
+    gap: 48px;
     padding: 30px 30px;
 }
 
-footer > #area_icons_contact > .icons_contact {
-    transition:  ease 0.4s;
+footer > #area_icons_contact > a > #instagram_icon {
+    color: rgb(37, 92, 243);
+}
+
+footer > #area_icons_contact > a > #yt_icon {
+    color: red;
+}
+
+footer > #area_icons_contact > a > #linkedin_icon {
+    color: rgb(109, 109, 255);
+}
+ 
+footer > #area_icons_contact > a > #github_icon {
+    color: rgb(53, 66, 203);
+}
+
+footer > #area_icons_contact > a > #email_icon {
+    color: rgb(40, 35, 35);
+}
+
+footer > #area_icons_contact > .icones_contact_link .icons_contact {
+    transition:  ease 0.6s;
     cursor: pointer;
-    border-bottom: 3px solid transparent;
+    border-bottom: 4px solid transparent;
     padding-bottom: 8px;
+}
+footer > #area_icons_contact > .icones_contact_link .icons_contact:hover {
+    border-bottom: 4px solid rgb(0, 0, 255);
 }
 
 
@@ -60,6 +83,7 @@ footer > #arrow_indicador {
     color: rgba(31, 37, 70, 0.873);
     justify-content: center;
     gap: 83px;
+    margin-top: 80px;
 }
 
 

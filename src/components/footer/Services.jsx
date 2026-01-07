@@ -37,7 +37,7 @@ const Services = () => {
             </div>
 
             <div id="arrow_indicador">
-              <FaArrowCircleDown size={23}  />
+              <FaArrowCircleDown size={23} />
               <FaArrowCircleDown size={23} />
               <FaArrowCircleDown size={23} />
               <FaArrowCircleDown size={23} />
@@ -46,11 +46,21 @@ const Services = () => {
 
 
             <div id="area_icons_contact">
-                <FaInstagram className="icons_contact" size={46} />
-                <FaLinkedin className="icons_contact" size={46} />
-                <FaYoutube className="icons_contact" size={46} />
-                <FaGithub className="icons_contact" size={46} />
-                <MdEmail className="icons_contact" size={46}  />
+                <a className="icones_contact_link" href="">
+                  <FaInstagram  id="instagram_icon" className="icons_contact" size={46} />
+                </a>
+                <a className="icones_contact_link" href="">
+                  <FaLinkedin id="linkedin_icon" className="icons_contact" size={46} />
+                </a>
+                <a className="icones_contact_link" href="">
+                  <FaYoutube id="yt_icon" className="icons_contact" size={46} />
+                </a>
+                <a className="icones_contact_link" href="">
+                  <FaGithub id="github_icon" className="icons_contact" size={46} />
+                </a>
+                <a className="icones_contact_link" href="">
+                  <MdEmail id="email_icon" className="icons_contact" size={46} />
+                </a>
             </div>
           </footer>
         </>
