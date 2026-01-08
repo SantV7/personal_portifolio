@@ -4,7 +4,6 @@ import { MdEmail } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import '../../style/footer/services.css'
-import { FaArrowCircleDown } from "react-icons/fa";
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 
@@ -34,14 +33,6 @@ const Services = () => {
             <span className="text_footer">
               Entre em contato
             </span>
-            </div>
-
-            <div id="arrow_indicador">
-              <FaArrowCircleDown size={23} />
-              <FaArrowCircleDown size={23} />
-              <FaArrowCircleDown size={23} />
-              <FaArrowCircleDown size={23} />
-              <FaArrowCircleDown size={23} />
             </div>
 
 

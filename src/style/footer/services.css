@@ -1,6 +1,9 @@
 
 footer {
-    background-image:linear-gradient( to bottom, rgb(195, 205, 236), rgb(250, 250, 250));
+    background-image: url(../../assets/img/laptop_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     margin-top: 300px;
     text-align: center;
 }
@@ -17,6 +20,7 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.679);
     transition:  ease 0.70s;
     border-bottom: 3px solid transparent;    
     width: 160px;
@@ -28,6 +32,7 @@ footer > #services_info  > p:hover {
 }
 
 footer > #services_info > span {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.679);
     font-size: 25px;
     border-bottom: 3px solid orange;
     padding-top: 20px;
@@ -77,14 +82,6 @@ footer > #area_icons_contact > .icons_contact:hover {
     border-bottom: 3px solid rgb(67, 115, 248);
 }
 
-footer > #arrow_indicador {
-    display: flex;
-    align-items: center;
-    color: rgba(31, 37, 70, 0.873);
-    justify-content: center;
-    gap: 83px;
-    margin-top: 80px;
-}
 
 
 @media screen and (min-width:768px) {
@@ -93,7 +90,4 @@ footer > #arrow_indicador {
         font-size: 25px;
     }
 
-    footer > #arrow_indicador {
-        gap: 310px;
-    }
 }
