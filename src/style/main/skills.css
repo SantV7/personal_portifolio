@@ -48,7 +48,7 @@
     border-radius: 10px;
 }
 .icons_skills:hover {
-    background-color: rgba(40, 38, 46, 0.462);
+    scale: 1.15;
     border-bottom: 3px solid rgb(84, 84, 246);
 }
 #icon_html {

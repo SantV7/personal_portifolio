@@ -20,7 +20,6 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
-
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.379);
     transition:  ease 0.70s;
     border: 1px solid rgba(255, 255, 255, 0.44);
@@ -49,7 +48,7 @@ footer > #services_info > span {
 }
 
 footer > #area_icons_contact {
-    margin-top: 90px;
+    margin-top: 95px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
