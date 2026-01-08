@@ -26,9 +26,6 @@ const BtnChangeTheme =() => {
     }
 
 
-
-
-
     return(
         <>
          <button aria-description="mudar tema" id="btn_change_theme"

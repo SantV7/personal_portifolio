@@ -11,8 +11,7 @@ const Header = () => {
     
     const [menuOpen, setMenuOpen] = useState(true)
 
-
-
+ 
     return(
         <>
          <header>
