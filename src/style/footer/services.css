@@ -1,6 +1,6 @@
 
 footer {
-    background-image: url(../../assets/img/laptop_img.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.689)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -20,6 +20,7 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
+
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.379);
     transition:  ease 0.70s;
     border: 1px solid rgba(255, 255, 255, 0.44);
@@ -60,6 +61,13 @@ footer > #area_icons_contact > a > #instagram_icon {
     color: rgb(37, 92, 243);
 }
 
+footer > #area_icons_contact > a {
+    transition: 0.26s;
+}
+footer > #area_icons_contact > a:hover {
+    scale: 1.2;
+}
+
 footer > #area_icons_contact > a > #yt_icon {
     color: red;
 }
@@ -73,7 +81,11 @@ footer > #area_icons_contact > a > #github_icon {
 }
 
 footer > #area_icons_contact > a > #email_icon {
-    color: rgb(40, 35, 35);
+    transition: ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+}
+footer > #area_icons_contact > a > #email_icon:hover {
+    color: rgb(193, 193, 247);
 }
 
 footer > #area_icons_contact > .icones_contact_link .icons_contact {
