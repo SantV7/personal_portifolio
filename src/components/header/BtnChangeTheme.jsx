@@ -7,7 +7,7 @@ import Services, { color_footer } from "../footer/Services";
 
 const BtnChangeTheme =() => {
    
-color_footer
+   color_footer
 
 
     const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
@@ -34,7 +34,7 @@ color_footer
 
 
 
-    
+
 
 
     return(

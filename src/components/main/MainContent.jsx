@@ -36,11 +36,7 @@ const MainContent = () => {
                   <p>Me chamo Vinícius. Tenho 18 anos.</p>
                   <p>Sou um desenvolvedor Frontend Júnior apaixonado por tecnologia, com foco em criar interfaces modernas e funcionais. Minha jornada na programação começou há cerca de um ano e meio, e atualmente dedico-me ao domínio das tecnologias essenciais para a web: HTML, CSS, JavaScript e React.</p>
                   <p>Estou em busca da minha primeira oportunidade profissional na área de tecnologia, onde possa contribuir com minhas habilidades, aprender com uma equipe experiente e evoluir constantemente como desenvolvedor.</p>
-               </div>
-
-               <div id='personal-img-png'>
-                  
-               </div>
+               </div>          
             </section>
 
             <section id='skills_container'>

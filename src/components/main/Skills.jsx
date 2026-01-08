@@ -7,10 +7,8 @@ import { FaReact } from "react-icons/fa";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import '../../style/main/skills.css'
 
+
 const Skills = () => {
-
-
-
 
 
 
