@@ -20,10 +20,19 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.679);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.379);
     transition:  ease 0.70s;
+    border: 1px solid rgba(255, 255, 255, 0.44);
     border-bottom: 3px solid transparent;    
     width: 160px;
+}
+
+footer > #services_info  > .text_footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.44);
+    margin: 5px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.207);
+    padding: 4px;
 }
 
 footer > #services_info  > p:hover {
@@ -32,7 +41,7 @@ footer > #services_info  > p:hover {
 }
 
 footer > #services_info > span {
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.679);
+    color: rgb(244, 244, 252);
     font-size: 25px;
     border-bottom: 3px solid orange;
     padding-top: 20px;

@@ -7,7 +7,7 @@ import Services, { color_footer } from "../footer/Services";
 
 const BtnChangeTheme =() => {
    
-
+color_footer
 
 
     const [themeDefaultWhite, setThemeDefaultWhite] = useState(true)
@@ -15,13 +15,16 @@ const BtnChangeTheme =() => {
 
     if (themeDefaultWhite == true) {
        useEffect(() => {
+           const color_footer = document.querySelector('.text_footer')
+
           document.body.style.backgroundColor = '#f6f6feff'
           document.body.style.color = 'black'
-        },[ themeDefaultWhite])       
+          color_footer.style.color = '#ffffffff'
+        },[themeDefaultWhite])       
     } else {
        useEffect(() => {
           document.body.style.backgroundColor = '#6e6a7bff'
-          
+          color_footer.style.color = '#fcfcffff'
        },[themeDefaultWhite])             
     }
 

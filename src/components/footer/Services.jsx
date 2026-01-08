@@ -13,6 +13,9 @@ const Services = () => {
 
   const color_footer = document.querySelector('.text_footer')
 
+  
+  
+
   useEffect(() => {
     ScrollReveal().reveal('#footer', {
       reset: true ,
@@ -22,17 +25,12 @@ const Services = () => {
 
 
 
-
-
     return(
         <>
           <footer id="footer">
             <div id="services_info">
                 <p className="text_footer">Para serviços</p>
-                
-            <span className="text_footer">
-              Entre em contato
-            </span>
+                <span className="text_footer">Entre em contato</span>
             </div>
 
 
