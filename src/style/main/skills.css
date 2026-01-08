@@ -24,7 +24,7 @@
     color: rgb(6, 6, 6);
     background-color: rgba(136, 136, 239, 0.921);
     font-size: 30px;
-    transition: ease 0.70s;
+    transition: ease 0.40s;
 }
 
 .logo_skills > h3:hover {
@@ -87,8 +87,6 @@
     color: black;
     text-decoration: none;
 }
-
-
 
 
 
