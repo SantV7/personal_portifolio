@@ -1,13 +1,15 @@
 #btn_contact {
+    text-decoration: none;
     background-color: rgb(167, 167, 254);
     border: none;
     margin-top: -9px;
     border-radius: 15px;
+    color: white;
     text-align: center;
     transition: ease 0.30s;
     cursor: pointer;
     font-size: 18.6px;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.485);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.562);
     font-weight: 600;
     padding: 8.65px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);    

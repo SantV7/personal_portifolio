@@ -4,10 +4,9 @@ const BtnContact = () => {
 
     return(
         <>
-        <div>
-            <button id="btn_contact">Contato</button>
-        </div>
-        
+          <div>
+              <a href='' id="btn_contact">Contato</a>
+          </div>
         </>
     )
 }
