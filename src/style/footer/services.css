@@ -22,6 +22,7 @@ footer > #services_info {
 footer > #services_info > p {
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.379);
     transition:  ease 0.70s;
+    color: white;
     border: 1px solid rgba(255, 255, 255, 0.44);
     border-bottom: 3px solid transparent;    
     width: 160px;
