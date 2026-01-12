@@ -1,5 +1,4 @@
 import '../../../style/header/navbar.css'
-import BtnChangeTheme from '../BtnChangeTheme'
 import BtnContact from "../navbar/BtnContact"
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
             <ul>
                 <li><a className='a_navbar' href="#">Inicio</a></li>
                 <li><a className='a_navbar' href="#">Serviços</a></li>
-                <BtnChangeTheme />
+                <li><a href="#">Projetos</a></li>
                 <BtnContact />
             </ul>
         </nav>
