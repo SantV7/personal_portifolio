@@ -36,19 +36,19 @@ const Services = () => {
 
             <div id="area_icons_contact">
                 <a className="icones_contact_link" href="">
-                  <FaInstagram  id="instagram_icon" className="icons_contact" size={46} />
+                  <FaInstagram  id="instagram_icon" className="icons_contact" size={48} />
+                </a>
+                <a className="icones_contact_link" href="https://www.linkedin.com/in/viniciussant07">
+                  <FaLinkedin id="linkedin_icon" className="icons_contact" size={48} />
                 </a>
                 <a className="icones_contact_link" href="">
-                  <FaLinkedin id="linkedin_icon" className="icons_contact" size={46} />
+                  <FaYoutube id="yt_icon" className="icons_contact" size={48} />
+                </a>
+                <a className="icones_contact_link" href="https://github.com/SantV7">
+                  <FaGithub id="github_icon" className="icons_contact" size={48} />
                 </a>
                 <a className="icones_contact_link" href="">
-                  <FaYoutube id="yt_icon" className="icons_contact" size={46} />
-                </a>
-                <a className="icones_contact_link" href="">
-                  <FaGithub id="github_icon" className="icons_contact" size={46} />
-                </a>
-                <a className="icones_contact_link" href="">
-                  <MdEmail id="email_icon" className="icons_contact" size={46} />
+                  <MdEmail id="email_icon" className="icons_contact" size={48} />
                 </a>
             </div>
           </footer>

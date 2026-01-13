@@ -1,9 +1,9 @@
-
 footer {
+    height: 520px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.689)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     margin-top: 300px;
     text-align: center;
 }
