@@ -71,10 +71,10 @@ main > .infoContent {
         width: 470px;
     }
     .text_about_me > #icon-man-people {
-    width: 240px;
-    height: 240px;
-    margin-left: 88px;
-} 
+        width: 240px;
+        height: 240px;
+        margin-left: 88px;
+    } 
     
     .text_about_me > h3 {
         margin-left: -21px;
