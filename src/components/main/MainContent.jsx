@@ -25,8 +25,6 @@ const MainContent = () => {
 
 
 
-
-
     return(
         <>
           <main>

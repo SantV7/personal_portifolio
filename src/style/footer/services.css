@@ -1,9 +1,13 @@
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
     height: 520px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.689)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     margin-top: 300px;
     text-align: center;
 }
@@ -11,28 +15,25 @@ footer {
 footer > #services_info { 
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: center;
     padding-top: 50px;
     flex-flow: column nowrap;
     padding-bottom: 90px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 footer > #services_info > p {
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.379);
     transition:  ease 0.70s;
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.44);
-    border-bottom: 3px solid transparent;    
-    width: 160px;
+    font-size: 33px;
+    padding-bottom: 30px; 
 }
 
 footer > #services_info  > .text_footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.44);
     margin: 5px;
-    border-radius: 7px;
-    background-color: rgba(0, 0, 0, 0.207);
+    border-radius: 4px;
     padding: 4px;
 }
 
@@ -43,18 +44,18 @@ footer > #services_info  > p:hover {
 
 footer > #services_info > span {
     color: rgb(244, 244, 252);
-    font-size: 25px;
+    font-size: 26px;
     border-bottom: 3px solid orange;
-    padding-top: 20px;
 }
 
 footer > #area_icons_contact {
-    margin-top: 95px;
+    width: 90%;
+    margin-top: 135px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 48px;
-    padding: 30px 30px;
+    padding: 30px 5px;
 }
 
 footer > #area_icons_contact > a > #instagram_icon {
@@ -62,10 +63,10 @@ footer > #area_icons_contact > a > #instagram_icon {
 }
 
 footer > #area_icons_contact > a {
-    transition: 0.26s;
+    transition: 0.76s;
 }
 footer > #area_icons_contact > a:hover {
-    scale: 1.2;
+    scale: 1.25;
 }
 
 footer > #area_icons_contact > a > #yt_icon {
@@ -84,6 +85,7 @@ footer > #area_icons_contact > a > #email_icon {
     transition: ease-in-out 0.3s;
     color: rgb(255, 255, 255);
 }
+
 footer > #area_icons_contact > a > #email_icon:hover {
     color: rgb(193, 193, 247);
 }
@@ -94,6 +96,7 @@ footer > #area_icons_contact > .icones_contact_link .icons_contact {
     border-bottom: 4px solid transparent;
     padding-bottom: 8px;
 }
+
 footer > #area_icons_contact > .icones_contact_link .icons_contact:hover {
     border-bottom: 4px solid rgb(0, 0, 255);
 }
@@ -103,12 +106,3 @@ footer > #area_icons_contact > .icons_contact:hover {
     border-bottom: 3px solid rgb(67, 115, 248);
 }
 
-
-
-@media screen and (min-width:768px) {
-    footer > #services_info > p {
-        width: 195px;
-        font-size: 25px;
-    }
-
-}

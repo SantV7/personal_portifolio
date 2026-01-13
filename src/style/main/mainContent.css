@@ -36,31 +36,12 @@ main > .infoContent {
     font-size: 21.77px;
 }
 
-.span-usage-language {
-    text-shadow: 1.3px 1.3px 1px rgba(0, 0, 0, 0.46);
-}
-
-#html-span {
-    color: red;
-}
-
-#css-span {
-    color: rgb(121, 121, 255);
-}
-
-#javascript-span {
-    color: rgb(209, 184, 54);
-}
-
-#react-span {
-    color: rgb(156, 156, 250);
-}
 
 #arrow_me {
     color: rgb(103, 90, 250);
-    font-size: 30px;
+    font-size: 36px;
     margin-left: 10px;
-    margin-bottom: -5.5px;
+    margin-bottom: -10.5px;
 }
 
 
