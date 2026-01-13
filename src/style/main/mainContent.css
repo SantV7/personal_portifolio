@@ -16,25 +16,25 @@ main > .infoContent {
     align-items: center;
 }
 
-
 .text_about_me {
     width: 325px;
 }
+
+.text_about_me > h3 {
+    font-size: 25.3px;
+    margin-bottom: 15.5px;
+}
 .text_about_me > p {
-    margin-bottom: 40px;
+    margin-bottom: 33px;
     font-size: 18.77px;
 }
 
-.text_about_me > h3 {
-    font-size: 20.3px;
-    margin-bottom: 15.5px;
-}
 
 #arrow_me {
     color: rgb(103, 90, 250);
     font-size: 30px;
     margin-left: 10px;
-    margin-bottom: -9px;
+    margin-bottom: -5.5px;
 }
 
 
@@ -47,6 +47,7 @@ main > .infoContent {
     
     .text_about_me > h3 {
         margin-left: -21px;
+        font-size: 33.3px;
     }
 
 }
