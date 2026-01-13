@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center; 
     flex-flow: column;
-    background-image:linear-gradient(transparent, rgba(34, 32, 42, 0.422)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    background-image:linear-gradient(black, rgba(34, 32, 42, 0.044)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: rgb(57, 53, 53);

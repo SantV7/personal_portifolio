@@ -26,9 +26,28 @@ main > .infoContent {
 }
 .text_about_me > p {
     margin-bottom: 33px;
-    font-size: 18.77px;
+    font-size: 21.77px;
 }
 
+.span-usage-language {
+    text-shadow: 1.3px 1.3px 1px rgba(0, 0, 0, 0.46);
+}
+
+#html-span {
+    color: red;
+}
+
+#css-span {
+    color: rgb(121, 121, 255);
+}
+
+#javascript-span {
+    color: rgb(209, 184, 54);
+}
+
+#react-span {
+    color: rgb(156, 156, 250);
+}
 
 #arrow_me {
     color: rgb(103, 90, 250);
@@ -42,7 +61,7 @@ main > .infoContent {
 
     
     .text_about_me {
-        width: 430px;
+        width: 470px;
     }
     
     .text_about_me > h3 {
