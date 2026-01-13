@@ -17,12 +17,11 @@
 
 .logo_skills > h3 {
     text-align: center;
+  
     width: 120px;
     border-bottom: 3px solid rgb(79, 52, 185);
     margin-bottom: 260px;
     border-radius: 15px;
-    color: rgb(6, 6, 6);
-    background-color: rgba(136, 136, 239, 0.222);
     font-size: 30px;
     transition: ease 0.40s;
 }
@@ -39,7 +38,8 @@
     gap: 26px;
 }
 
-.icons_skills {
+.icons_skills > h3 {
+    color: rgb(139, 139, 255);
     font-size: 56px;
     padding-bottom: 7px;
     transition: ease-in-out 0.3s;
@@ -98,19 +98,20 @@
 
 
 
-
-
-
 @media screen and (min-width:768px) {
 
     #skills_container {
-        width: 700px;
-        height: 425px;
+        min-width: 760px;
+        max-width: 1211px;
+        height: 485px;
         margin-top: 274px;
     }
 
-    .logo_skills {     
-        font-size: 33px;
+    .logo_skills > h3 {     
+        text-shadow: 1.3px 1.3px 1px rgb(131, 160, 253);
+        font-size: 40px;
+        color: rgb(189, 187, 252);
+        
     }
 
     #area_skills {
@@ -118,7 +119,7 @@
     }
 
     .icons_skills {
-        font-size: 48px;
+        font-size: 70px;
 }
 
     #arrow_to_github {
