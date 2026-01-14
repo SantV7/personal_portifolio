@@ -25,11 +25,13 @@ footer > #services_info {
 }
 
 footer > #services_info > p {
-    transition:  ease 0.70s;
+   
+    border-bottom: 3px solid blue;
     color: white;
     font-size: 33px;
     padding-bottom: 30px; 
 }
+
 
 footer > #services_info  > .text_footer {
     margin: 5px;
@@ -37,10 +39,6 @@ footer > #services_info  > .text_footer {
     padding: 4px;
 }
 
-footer > #services_info  > p:hover {
-    width: 250px;
-    border-bottom: 3px solid rgb(56, 56, 236);
-}
 
 footer > #services_info > span {
     color: rgb(244, 244, 252);
@@ -63,7 +61,7 @@ footer > #area_icons_contact > a > #instagram_icon {
 }
 
 footer > #area_icons_contact > a {
-    transition: 0.76s;
+    transition: 0.66s;
 }
 footer > #area_icons_contact > a:hover {
     scale: 1.25;
