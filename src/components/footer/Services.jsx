@@ -8,8 +8,6 @@ import ScrollReveal from "scrollreveal";
 import { useEffect, useState } from "react";
 
 
-
-
 const Services = () => {
 
   const color_footer = document.querySelector('.text_footer')
