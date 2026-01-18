@@ -9,7 +9,7 @@ const Header = () => {
 
 
     
-    const [ showMenu, setShowMenu] = useState(true)
+    const [ showMenu, setShowMenu] = useState(false)
 
  
     return(
@@ -19,12 +19,25 @@ const Header = () => {
                 <h1>Portfólio</h1>
             </div>
             
-            
+
+        { showMenu
+        ? ('') 
+          : (
+          <nav id="nav-mobile">
+              <ul id="ul-mobile">
+                  <li>inicio</li>
+                  <li>Projetos</li>
+              </ul>
+          </nav>
+        )
+        }
+
+
             <div onClick={() => setShowMenu(!showMenu)} id="menubar">
                 {
                   showMenu
-                  ? <FaBars />
-                  : <IoClose id="close_buton" />
+                  ? <FaBars size={30} />
+                  : <IoClose size={30} id="close_buton" />
                 }
             </div>
 
