@@ -4,6 +4,7 @@ import { IoClose } from "react-icons/io5";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import '../../style/header/btnIcons.css'
+import BtnContact from "./navbar/BtnContact";
 
 const Header = () => {
 
@@ -25,8 +26,9 @@ const Header = () => {
           : (
           <nav id="nav-mobile">
               <ul id="ul-mobile">
-                  <li>inicio</li>
-                  <li>Projetos</li>
+                  <li><a href="#inicio-text">Inicio</a></li>
+                  <li><a href="#">Projetos</a></li>
+                  <BtnContact />
               </ul>
           </nav>
         )
