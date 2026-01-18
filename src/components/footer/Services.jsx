@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import '../../style/footer/services.css'
 import ScrollReveal from "scrollreveal";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 
 
 const Services = () => {
@@ -20,7 +20,7 @@ const Services = () => {
       duration:960
     })
   }, [])
-
+ 
 
 
     return(

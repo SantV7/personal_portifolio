@@ -16,11 +16,11 @@ header > .logo {
     margin-bottom: 14.5px;
 }
 
-header > nav {
+header > #nav-desktop {
     display: none;
 }
 
-header > nav > ul {
+header > nav > #ul-desktop {
     background-color: rgba(216, 219, 246, 0.775);
     display: none;
     gap: 70px;
@@ -43,8 +43,6 @@ header > #menubar {
 
 
 
-
-
 @media screen and (min-width: 768px) {
     header > #menubar {
         display: none;
@@ -58,12 +56,12 @@ header > #menubar {
         display: block;
     }
 
-   header > nav {
+   header > #nav-desktop {
        display: block;
    }
 
-   header > nav > ul { 
-      
+
+   header > #nav-desktop > #ul-desktop { 
       background-color: transparent;
       display: flex;
       gap: 52px;

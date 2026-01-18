@@ -9,7 +9,7 @@ const Header = () => {
 
 
     
-    const [menuOpen, setMenuOpen] = useState(true)
+    const [ showMenu, setShowMenu] = useState(true)
 
  
     return(
@@ -20,9 +20,9 @@ const Header = () => {
             </div>
             
             
-            <div onClick={() => setMenuOpen(!menuOpen)} id="menubar">
+            <div onClick={() => setShowMenu(!showMenu)} id="menubar">
                 {
-                  menuOpen
+                  showMenu
                   ? <FaBars />
                   : <IoClose id="close_buton" />
                 }
