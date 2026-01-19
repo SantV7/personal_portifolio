@@ -12,6 +12,10 @@ const Header = () => {
     
     const [ showMenu, setShowMenu] = useState(true)
 
+    const closeClickLink = () => {
+        return  setShowMenu(!showMenu)
+    }
+
  
     return(
         <>
@@ -22,12 +26,13 @@ const Header = () => {
             
 
         { showMenu
-        ? ('') 
+          ? ('') 
           : (
           <nav id="nav-mobile">
               <ul id="ul-mobile">
-                  <li><a href="#inicio-text">Inicio</a></li>
-                  <li><a href="#">Projetos</a></li>
+                  <li><a onClick={() => closeClickLink()} href="#main-info-content">Inicio</a></li>
+                  <li><a onClick={() => closeClickLink()} href="#">Projetos</a></li>
+                  <li><a onClick={() => closeClickLink()} href="#skills_container">Skills</a></li>          
                   <BtnContact />
               </ul>
           </nav>
