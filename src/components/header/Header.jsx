@@ -10,7 +10,7 @@ const Header = () => {
 
 
     
-    const [ showMenu, setShowMenu] = useState(false)
+    const [ showMenu, setShowMenu] = useState(true)
 
  
     return(
@@ -39,7 +39,7 @@ const Header = () => {
                 {
                   showMenu
                   ? <FaBars size={30} />
-                  : <IoClose size={30} id="close_buton" />
+                  : <IoClose size={34} id="close_buton" />
                 }
             </div>
 

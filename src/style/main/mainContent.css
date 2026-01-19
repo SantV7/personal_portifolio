@@ -12,7 +12,7 @@ main > .infoContent {
     padding: 5px;
     justify-content: center;
     flex-flow: column;
-    margin-top: 240px;
+    margin-top: 180px;
     align-items: center;
 }
 
