@@ -22,14 +22,6 @@ const MainContent = () => {
       })
    }, [])
 
-
-
-
-
-
-
-
-
    
 
     return(
