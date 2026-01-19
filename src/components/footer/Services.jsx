@@ -9,9 +9,6 @@ import { useEffect} from "react";
 
 
 const Services = () => {
-
-  const color_footer = document.querySelector('.text_footer')
-  
   
 
   useEffect(() => {
