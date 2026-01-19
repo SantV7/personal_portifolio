@@ -26,7 +26,7 @@ const MainContent = () => {
 
     return(
         <>
-          <main id='main-info-content' >
+          <main id='main-info-content'>
             <section className='infoContent'>
                <div id='inicio-text' className='text_about_me'>
                   <h3>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3> <lord-icon id="icon-man-people" src="https://cdn.lordicon.com/daeumrty.json"  colors="primary:#d59f80,secondary:#848484,tertiary:#0a4e5c,quaternary:#242424" delay="1830" state="hover-hower" trigger="loop"></lord-icon>

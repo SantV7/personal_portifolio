@@ -16,6 +16,8 @@ const Skills = () => {
     
     return(
         <>
+        <div id="redirection-skills"></div>
+
          <div className="logo_skills">
              <h3>Skills</h3>
          </div>
