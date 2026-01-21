@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center; 
     flex-flow: column;
-    background-image:linear-gradient(black, rgba(34, 32, 42, 0.044)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    background-image:linear-gradient(rgb(26, 24, 24), rgba(34, 32, 42, 0.044)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: rgb(57, 53, 53);
@@ -12,7 +12,6 @@
     height: 470px;
     margin-top: 285px;
     margin-bottom: 140px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.376);
 }
 
 #redirection-skills {
@@ -33,7 +32,7 @@
     width: 120px;
     border-bottom: 3px solid rgb(79, 52, 185);
     margin-bottom: 260px;
-    border-radius: 7px;
+    border-radius: 4px;
     font-size: 39px;
     transition: ease 0.40s;
 }
