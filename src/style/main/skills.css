@@ -45,13 +45,15 @@
     display: flex;
     gap: 34.5px;
 }
+
 .icons_skills {
     font-size: 48px;
+    transition: scale 0.3s;
 }
 
 
 .icons_skills:hover {
-    scale: 1.15;
+    scale: 1.23;
     border-bottom: 3px solid rgb(84, 84, 246);
 }
 
@@ -121,7 +123,7 @@
     }
 
     .icons_skills {
-        font-size: 70px;
+        font-size: 56px;
 }
 
     #arrow_to_github {
