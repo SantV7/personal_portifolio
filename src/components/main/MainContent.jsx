@@ -15,15 +15,15 @@ const MainContent = () => {
          reset: true ,
          duration: 1040,
          delay: 130,
-         distance: '80px'
-      })
+         origin:'left'
+      },)
 
       ScrollReveal().reveal('#skills_container' ,{
          reset: true , 
          duration: 1050,
-         distance: '30px',
          delay: 130,
-      })
+         origin:'left'
+      },)
    }, [])
 
    
