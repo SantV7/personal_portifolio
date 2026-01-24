@@ -4,7 +4,7 @@ import Skills from './Skills';
 import ScrollReveal from "scrollreveal";
 import { useEffect } from 'react';
 <a href="https://lordicon.com/">Icons by Lordicon.com</a>
-import  { defineElement }  from  "@lordicon/element" ;
+
 
 
 const MainContent = () => {
@@ -13,12 +13,16 @@ const MainContent = () => {
    useEffect(() => {
       ScrollReveal().reveal('.text_about_me' ,{
          reset: true ,
-         duration: 1040 ,
+         duration: 1040,
+         delay: 130,
+         distance: '80px'
       })
 
       ScrollReveal().reveal('#skills_container' ,{
          reset: true , 
-         duration: 1050
+         duration: 1050,
+         distance: '30px',
+         delay: 130,
       })
    }, [])
 
