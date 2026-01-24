@@ -25,7 +25,7 @@ const MainContent = () => {
       ScrollReveal().reveal('#skills_container' ,{
          reset: true , 
          duration: 1050,
-         delay: 130
+         origin:'bottom'
       },)
    }, [])
 
@@ -44,7 +44,7 @@ const MainContent = () => {
                   <p className='paragraph_text_about_me'>Me chamo Vinícius. Tenho 18 anos.</p>
                   <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
                    Tenho o foco em criar interfaces modernas e funcionais. Minha jornada na programação começou há cerca de um ano e meio,
-                   e atualmente dedico-me ao domínio das tecnologias essenciais para a web: HTML,CSS, JavaScript e React.</p>
+                   e atualmente dedico-me ao domínio das tecnologias essenciais para a web: HTML, CSS, JavaScript e React.</p>
                   <p className='paragraph_text_about_me'>Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
                   onde possa contribuir com minhas habilidades, aprender com uma equipe experiente e evoluir constantemente como desenvolvedor.</p>
                </div>          
