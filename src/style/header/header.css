@@ -1,13 +1,14 @@
 header {
     background-color: rgb(224, 226, 245);
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 100%;
     height: 77px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 16.6px;
+    z-index: 1000;
 }
 
 header > .logo {
