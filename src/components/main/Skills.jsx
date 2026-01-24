@@ -14,7 +14,6 @@ const Skills = () => {
     
     return(
         <>
-        <div id="redirection-skills"></div>
 
          <div className="logo_skills">
              <h3>Skills</h3>
@@ -23,7 +22,7 @@ const Skills = () => {
         <div id="area_skills">
             <div><FaHtml5 className="icons_skills" id="icon_html"/></div>
             <div><FaCss3Alt className="icons_skills" id="icon_css"/></div>
-            <div><IoLogoJavascript  className="icons_skills" id="icon_js" /></div>
+            <div><IoLogoJavascript className="icons_skills" id="icon_js" /></div>
             <div><FaReact className="icons_skills" id="icon_react"/></div>
             <div><FaGitAlt className="icons_skills" id="icon_git"/></div>
             <div id="box-github">

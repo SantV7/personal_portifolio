@@ -40,8 +40,19 @@ main > .infoContent {
 #arrow_me {
     color: rgb(103, 90, 250);
     font-size: 36px;
-    margin-left: 10px;
-    margin-bottom: -10.5px;
+    margin-left: 12.45px;
+    margin-bottom: -8.5px;
+}
+
+
+#transition_for_skills {
+    background-color: transparent;
+    margin-top: 90px;
+    margin-bottom: -230px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
 }
 
 

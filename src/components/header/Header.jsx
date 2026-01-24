@@ -32,7 +32,7 @@ const Header = () => {
               <ul id="ul-mobile">
                   <li><a onClick={() => closeClickLink()} href="#main-info-content">Inicio</a></li>
                   <li><a onClick={() => closeClickLink()} href="#">Projetos</a></li>
-                  <li><a onClick={() => closeClickLink()} href="#redirection-skills">Skills</a></li>          
+                  <li><a onClick={() => closeClickLink()} href="#transition_for_skills">Skills</a></li>          
                   <BtnContact />
               </ul>
           </nav>
