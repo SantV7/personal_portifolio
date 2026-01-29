@@ -14,7 +14,8 @@ const Services = () => {
   useEffect(() => {
     ScrollReveal().reveal('#footer', {
       reset: true ,
-      duration:960
+      duration:960,
+      delay: 80
     })
   }, [])
  

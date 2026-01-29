@@ -15,10 +15,26 @@
     font-weight: 600;
     padding: 8.65px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);    
+    animation: pulseBtn ease-in 1.6s infinite;
 }
 
 #btn_contact:hover {
     background-color: rgb(142, 142, 255);  
     border: 1px solid rgba(75, 72, 72, 0.26);
+}
+
+
+@keyframes pulseBtn {
+    0% {
+        box-shadow: 0px 0px 5px rgba(217, 217, 255, 0.692) ;
+    }
+    50% {
+        border: 1px solid rgba(15, 12, 19, 0.308);
+        box-shadow: 0px 0px 10px rgba(0, 110, 255, 0.5);
+    }
+    100% {
+        transform: translateX(0);
+        box-shadow: 0px 0px 5px rgba(217, 217, 255, 0.692) ;
+    }
 }
 
