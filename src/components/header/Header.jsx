@@ -15,6 +15,10 @@ const Header = () => {
         return  setShowMenu(!showMenu)
     }
 
+    const waitForProjects = () => {
+        alert('Ainda estou preparando essa parte, espere mais um pouco por favor.\nAss by: Vinícius')
+    }
+
  
     return(
         <>
@@ -30,7 +34,10 @@ const Header = () => {
           <nav id="nav-mobile">
               <ul id="ul-mobile">
                   <li><a onClick={() => closeClickLink()} href="#main-info-content">Inicio</a></li>
-                  <li><a onClick={() => closeClickLink()} href="#">Projetos</a></li>
+                  <li><a onClick={() => {
+                    closeClickLink()
+                    waitForProjects()
+                  }} href="#">Projetos</a></li>
                   <li><a onClick={() => closeClickLink()} href="#transition_for_skills">Skills</a></li>          
                   <BtnContact />
               </ul>
