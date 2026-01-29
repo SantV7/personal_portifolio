@@ -6,12 +6,9 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import '../../style/main/skills.css'
-import up_skills from '../../assets/img/stairs-up.gif'
-{/* <a href="https://www.flaticon.com/free-animated-icons/up-arrow" title="up arrow animated icons">Up arrow animated icons created by Freepik - Flaticon</a> */}
+
 
 const Skills = () => {
-
-
 
     
     return(
@@ -29,7 +26,9 @@ const Skills = () => {
             <div><FaGitAlt className="icons_skills" id="icon_git"/></div>
             <div id="box-github">
                 <FaArrowTurnDown id="arrow_to_github" />
-                <a href="https://github.com/SantV7"><FaGithub className="icons_skills" id="icon_github"/></a>
+                <a href="https://github.com/SantV7">
+                    <FaGithub className="icons_skills" id="icon_github"/>
+                </a>
             </div>
         </div>
         </>
