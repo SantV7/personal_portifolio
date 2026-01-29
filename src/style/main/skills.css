@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center; 
     flex-flow: column;
-    background-image:linear-gradient(rgb(26, 24, 24), rgba(34, 32, 42, 0.044)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    background-image:linear-gradient(rgba(48, 79, 163, 0.288), rgba(19, 16, 32, 0.836)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: rgb(57, 53, 53);
@@ -75,6 +75,10 @@
     align-items: center;
 }
 
+#box-github > a >  #icon_github {
+    color: rgb(53, 66, 203);
+}
+
 #arrow_to_github {
     font-size: 44px;
     margin-top: -45px;
@@ -133,5 +137,5 @@
         margin-top: -55px;
         font-size: 51.53px;
     }
-    
+
 }
