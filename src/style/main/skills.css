@@ -14,13 +14,12 @@
 }
 
 .logo_skills > h3 {
-    margin-top: 40px;
     color: white;
     text-shadow: 1.6px 1.6px 1px rgb(141, 122, 254);
     text-align: center;
     width: 120px;
     border-bottom: 3px solid rgb(79, 52, 185);
-    margin-bottom: 260px;
+    margin-bottom: 150px;
     border-radius: 4px;
     font-size: 39px;
     transition: ease 0.40s;
@@ -111,7 +110,6 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
 
     #skills_container {
-        
         width: 94%;
         border-radius: 10px;
         height: 485px;
@@ -144,4 +142,11 @@
         width: 80%;
         border-radius: 6.65px;
     }
+    #area_skills {
+        gap: 95px;
+    }
+
+    .icons_skills {
+        font-size: 55.56px;
+    }    
 }
