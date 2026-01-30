@@ -5,8 +5,6 @@ import ScrollReveal from "scrollreveal";
 import { useEffect } from 'react';
 <a href="https://lordicon.com/">Icons by Lordicon.com</a>
 
-
-
 const MainContent = () => {
 
 
@@ -19,13 +17,11 @@ const MainContent = () => {
 
       ScrollReveal().reveal('.paragraph_text_about_me', {
          reset: true,
-         origin:'left'
       })
 
       ScrollReveal().reveal('#skills_container' ,{
          reset: true , 
          duration: 1050,
-         origin:'bottom'
       },)
    }, [])
 
