@@ -15,10 +15,9 @@ const Services = () => {
     ScrollReveal().reveal('#footer', {
       reset: true ,
       duration:960,
-      delay: 80
+      delay: 135
     })
   }, [])
- 
 
 
     return(
