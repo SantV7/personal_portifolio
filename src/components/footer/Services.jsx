@@ -12,13 +12,13 @@ const Services = () => {
   
 
   useEffect(() => {
+
     ScrollReveal().reveal('#footer', {
       reset: true ,
-      duration:960,
-      delay: 135
+      duration:2,
+      opacity: 1
     })
   }, [])
-
 
     return(
         <>

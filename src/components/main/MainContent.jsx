@@ -3,12 +3,31 @@ import { LuArrowBigDownDash } from "react-icons/lu";
 import Skills from './Skills';
 import ScrollReveal from "scrollreveal";
 import { useEffect } from 'react';
+import gsap from 'gsap';
 <a href="https://lordicon.com/">Icons by Lordicon.com</a>
 
 const MainContent = () => {
 
-
    useEffect(() => {
+   gsap.fromTo('#main-info-content' , {
+      x: -200,
+      opacity: 0.6
+   }, {
+      x: 0,
+      duration:1,
+      delay: 0.25,
+      opacity: 1
+   })
+
+   gsap.fromTo('#h3-about-me' , {
+      y: - 200,
+      x:0
+   }, {
+      y:0,
+      duration: 1.3
+   })
+
+      
       ScrollReveal().reveal('.text_about_me' ,{
          reset: true ,
          duration: 1040,
@@ -26,19 +45,19 @@ const MainContent = () => {
       },)
    }, [])
    
-
     return(
         <>
           <main id='main-info-content'>
             <section className='infoContent'>
                <div id='inicio-text' className='text_about_me'>
-                  <h3>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3> 
+                  <h3 id='h3-about-me'>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3> 
                   <lord-icon id="icon-man-people" src="https://cdn.lordicon.com/daeumrty.json"  
                   colors="primary:#d59f80,secondary:#848484,tertiary:#0a4e5c,quaternary:#242424" 
                   delay="1730" state="hover-hower" trigger="loop"></lord-icon>
 
                   <p className='paragraph_text_about_me'>Me chamo Vinícius. Tenho 18 anos.</p>
-                  <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
+                  <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto basta
+                     nte de tecnologia.
                    Tenho o foco em criar interfaces modernas e funcionais. Minha jornada na programação começou há cerca de um ano e meio,
                    e atualmente dedico-me ao domínio das tecnologias essenciais para a web: HTML, CSS, JavaScript e React.</p>
                   <p className='paragraph_text_about_me'>Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 

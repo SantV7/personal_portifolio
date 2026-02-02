@@ -4,7 +4,7 @@ footer {
     align-items: center;
     flex-flow: column;
     height: 520px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.689)), url(../../assets/img/laptop_img.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(2, 6, 16, 0.989)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
