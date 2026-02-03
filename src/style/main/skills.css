@@ -19,7 +19,7 @@
     color: white;
     text-shadow: 1.6px 1.6px 1px rgb(141, 122, 254);
     text-align: center;
-    width: 120px;
+    width: 130px;
     border-bottom: 3px solid rgb(79, 52, 185);
     margin-bottom: 150px;
     border-radius: 4px;
@@ -82,23 +82,22 @@
     font-size: 44px;
     margin-top: -45px;
     padding-bottom: 18px;
-    color: rgb(252, 186, 5);
+    color: rgb(123, 163, 250);
     animation: arrow-moving ease-in-out 1.85s infinite;
 }
+
 @keyframes arrow-moving {
     0% {
         transform: translateY(0);
     }
     50% {
         scale: 1.065;
-        transform: translateY(3.85px);
+        transform: translateY(4px);
     }
     100% {
         transform: translateY(0);
     }
 }
-
-
 
 
 #icon_github {
@@ -121,7 +120,8 @@
     .logo_skills > h3 {     
         text-shadow: 1.3px 1.3px 1px rgb(131, 160, 253);
         font-size: 50px;
-        color: rgb(189, 187, 252);
+        width: 145px;
+    
     }
 
     #area_skills {

@@ -8,26 +8,30 @@
     align-items: center;
     justify-content: space-between;
     padding: 16.6px;
-
+    z-index: 1000;
 }
 
 #main-header > .logo {
     font-size: 17.5px;
     color: rgb(28, 41, 78);
     margin-bottom: 14.5px;
+    z-index: 1002;
 }
 
-#main-header > #nav-desktop {
-    list-style: none;
-    text-align: center;
+#nav-desktop {
     display: none;
+    z-index: 1001;
 }
 
-nav > ul > li {
+#ul-desktop {
+    display: flex;
+    gap: 70px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-nav > ul > li > a {
+#ul-desktop li a {
     text-decoration: none;
     color: black;
     font-size: 1.1em;
@@ -37,7 +41,7 @@ nav > ul > li > a {
     transition: ease 0.27s;
 }
 
-nav > ul > li > a:hover {
+#ul-desktop li a:hover {
     background-color: rgba(17, 17, 97, 0.183);
 }
 
@@ -49,6 +53,7 @@ nav > ul > li > a:hover {
     width: 100%;
     padding: 10px;
     background-color: rgb(236, 237, 253);
+    z-index: 999;
 }
 
 #nav-mobile > #ul-mobile{
@@ -70,6 +75,7 @@ nav > ul > li > a:hover {
     margin-top: -2.2px;
     cursor: pointer;
     margin-right: -10px;
+    z-index: 1003;
 }
 
 .iconChangeTheme {
@@ -85,14 +91,15 @@ nav > ul > li > a:hover {
         display: block;
     }
 
-   #main-header > #nav-desktop {
-       display: flex;
-   }
+    #nav-desktop {
+        display: flex;
+        position: static;
+    }
 
-   #main-header > nav > #ul-desktop { 
-      background-color: transparent;
-      display: flex;
-      gap: 52px;
-      flex-flow: row nowrap;
+    #ul-desktop { 
+        background-color: transparent;
+        display: flex;
+        gap: 52px;
+        flex-flow: row nowrap;
     }
 }

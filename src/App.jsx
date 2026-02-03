@@ -17,9 +17,9 @@ function App() {
         </header>
 
         <div className="card-projects">
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          <div className="card card-one"></div>
+          <div className="card card-Two"></div>
+          <div className="card card-Three"></div>
         </div>
       </section>
 
