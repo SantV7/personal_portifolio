@@ -57,8 +57,8 @@ const MainContent = () => {
 
                   <p className='paragraph_text_about_me'>Me chamo Vinícius. Tenho 18 anos.</p>
                   <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
-                   Tenho o foco em criar interfaces modernas e funcionais. Atualmente estudo as tecnologias essenciais para a web: HTML, CSS, JavaScript e React.</p>
-                  <p className='paragraph_text_about_me'>Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
+                   Tenho o foco em criar interfaces modernas e funcionais. Atualmente estudo as tecnologias essenciais para a web: HTML, CSS, JavaScript e React.
+                  Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
                   onde possa contribuir com minhas habilidades, aprender e evoluir constantemente como desenvolvedor.</p>
                </div>          
             </section>
