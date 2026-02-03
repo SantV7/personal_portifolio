@@ -5,7 +5,6 @@ main {
     align-items: center;
 }
 
-
 main > .infoContent {
     display: flex;
     padding: 5px;
@@ -16,6 +15,7 @@ main > .infoContent {
 }
 
 .text_about_me {
+    font-weight: 500;
     width: 325px;
 }
 
@@ -35,14 +35,12 @@ main > .infoContent {
     font-size: 21.77px;
 }
 
-
 #arrow_me {
     color: rgb(103, 90, 250);
     font-size: 36px;
     margin-left: 12.45px;
     margin-bottom: -8.5px;
 }
-
 
 #transition_for_skills {
     background-color: transparent;
@@ -53,6 +51,8 @@ main > .infoContent {
     width: 40%;
     align-items: center;
 }
+
+
 
 
 @media screen and (min-width:768px) {
