@@ -10,21 +10,19 @@ import gsap from 'gsap';
 const MainContent = () => {
    
    useEffect(() => {
-      gsap.fromTo('#main-info-content' , {
+      gsap.fromTo('#inicio-text' , {
         x: -200,
-        opacity: 0.6
       }, {
         x: 0,
         duration:1,
-        delay: 0.45,
-        opacity: 1
+        ease: 'power2.out',
      })
 
      gsap.fromTo('#h3-about-me' , {
        y: - 200,
-       x:0
        }, {
         y:0,
+        ease: 'power2',
         duration: 1.3
      })
       
