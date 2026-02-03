@@ -13,7 +13,7 @@ footer {
     text-align: center;
     border-top-left-radius: 40px;
     position: relative;
-    top: 136px;
+    top: 395px;
     z-index: 3;
     border-top-right-radius: 40px;
 }
@@ -38,13 +38,11 @@ footer > #services_info > p {
     padding-bottom: 30px; 
 }
 
-
 footer > #services_info  > .text_footer {
     margin: 5px;
     border-radius: 4px;
     padding: 4px;
 }
-
 
 footer > #services_info > span {
     color: rgb(244, 244, 252);
@@ -110,3 +108,8 @@ footer > #area_icons_contact > .icons_contact:hover {
     border-bottom: 3px solid rgb(67, 115, 248);
 }
 
+@media screen and (max-width:768px) {
+    footer {
+        top: 343px;
+    }
+}
