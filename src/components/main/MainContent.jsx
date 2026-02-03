@@ -9,24 +9,23 @@ import gsap from 'gsap';
 const MainContent = () => {
 
    useEffect(() => {
-   gsap.fromTo('#main-info-content' , {
-      x: -200,
-      opacity: 0.6
-   }, {
-      x: 0,
-      duration:1,
-      delay: 0.25,
-      opacity: 1
-   })
+      gsap.fromTo('#main-info-content' , {
+        x: -200,
+        opacity: 0.6
+      }, {
+        x: 0,
+        duration:1,
+        delay: 0.45,
+        opacity: 1
+     })
 
-   gsap.fromTo('#h3-about-me' , {
-      y: - 200,
-      x:0
-   }, {
-      y:0,
-      duration: 1.3
-   })
-
+     gsap.fromTo('#h3-about-me' , {
+       y: - 200,
+       x:0
+       }, {
+        y:0,
+        duration: 1.3
+     })
       
       ScrollReveal().reveal('.text_about_me' ,{
          reset: true ,
@@ -56,8 +55,7 @@ const MainContent = () => {
                   delay="1730" state="hover-hower" trigger="loop"></lord-icon>
 
                   <p className='paragraph_text_about_me'>Me chamo Vinícius. Tenho 18 anos.</p>
-                  <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto basta
-                     nte de tecnologia.
+                  <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
                    Tenho o foco em criar interfaces modernas e funcionais. Minha jornada na programação começou há cerca de um ano e meio,
                    e atualmente dedico-me ao domínio das tecnologias essenciais para a web: HTML, CSS, JavaScript e React.</p>
                   <p className='paragraph_text_about_me'>Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
