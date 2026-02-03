@@ -39,9 +39,8 @@ const MainContent = () => {
       })
 
       ScrollReveal().reveal('#skills_container' ,{
-         reset: true , 
-         duration: 1050,
-         delay: 130
+         reset: true,
+         duration: 1880,
       },)
    }, [])
    

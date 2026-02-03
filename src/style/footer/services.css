@@ -110,6 +110,7 @@ footer > #area_icons_contact > .icons_contact:hover {
 
 @media screen and (max-width:768px) {
     footer {
-        top: 343px;
+       height: 100%;
+       top: 432px;
     }
 }
