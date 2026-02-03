@@ -13,7 +13,7 @@ function App() {
 
       <section id='projects-area'>
         <header id='projects-header'>
-          <h1>Projetos</h1>
+          <h3>Projetos</h3>
         </header>
 
         <div className="card-projects">

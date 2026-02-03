@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 16.6px;
-    z-index: 1000;
+
 }
 
 #main-header > .logo {
@@ -21,12 +21,6 @@
     list-style: none;
     text-align: center;
     display: none;
-}
-
-#main-header > nav > #ul-desktop {
-    background-color: rgba(216, 219, 246, 0.775);
-    display: none;
-    gap: 70px;
 }
 
 nav > ul > li {
@@ -82,13 +76,8 @@ nav > ul > li > a:hover {
     display: none;
 }
 
-
-
-
-
-
 @media screen and (min-width: 768px) {
-    header > #menubar {
+    #main-header > #menubar {
         display: none;
     }
 
@@ -96,19 +85,14 @@ nav > ul > li > a:hover {
         display: block;
     }
 
-  
-
-   header > #nav-desktop {
-       display: block;
+   #main-header > #nav-desktop {
+       display: flex;
    }
 
-
-   header > #nav-desktop > #ul-desktop { 
+   #main-header > nav > #ul-desktop { 
       background-color: transparent;
       display: flex;
       gap: 52px;
       flex-flow: row nowrap;
     }
 }
-
-
