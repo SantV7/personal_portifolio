@@ -1,8 +1,8 @@
-import { useState } from 'react'
 import './style/global.css'
 import Header from './components/header/Header'
 import MainContent from './components/main/MainContent'
 import Services from './components/footer/Services'
+import './style/projects/projects.css'
 
 function App() {
 
@@ -10,6 +10,19 @@ function App() {
     <>
       <Header />
       <MainContent />
+
+      <section id='projects-area'>
+        <header id='projects-header'>
+          <h1>Projetos</h1>
+        </header>
+
+        <div className="card-projects">
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+        </div>
+      </section>
+
       <Services />
     </>
   )

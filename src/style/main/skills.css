@@ -6,11 +6,13 @@
     background-image:linear-gradient(rgba(48, 79, 163, 0.288), rgba(19, 16, 32, 0.836)), url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    border-top-right-radius: 20px;border-top-left-radius: 20px;
     background-color: rgb(57, 53, 53);
     background-size: cover;
     width: 100%;
+    z-index: 1;
     height: 470px;
-    margin: 270px 0px 120px 0px;
+    margin-top: 285px;
 }
 
 .logo_skills > h3 {

@@ -22,7 +22,7 @@ const Header = () => {
  
     return(
         <>
-         <header>
+         <header id="main-header">
             <div className="logo">
                 <h1>Portfólio</h1>
             </div>

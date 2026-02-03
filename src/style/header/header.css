@@ -1,4 +1,4 @@
-header {
+#main-header {
     background-color: rgb(224, 226, 245);
     position: fixed;
     top: 0;
@@ -11,19 +11,19 @@ header {
     z-index: 1000;
 }
 
-header > .logo {
+#main-header > .logo {
     font-size: 17.5px;
     color: rgb(28, 41, 78);
     margin-bottom: 14.5px;
 }
 
-header > #nav-desktop {
+#main-header > #nav-desktop {
     list-style: none;
     text-align: center;
     display: none;
 }
 
-header > nav > #ul-desktop {
+#main-header > nav > #ul-desktop {
     background-color: rgba(216, 219, 246, 0.775);
     display: none;
     gap: 70px;
@@ -70,7 +70,7 @@ nav > ul > li > a:hover {
     color: black;
 }
 
-header > #menubar {
+#main-header > #menubar {
     font-size: 25px;
     padding: 7px;
     margin-top: -2.2px;
