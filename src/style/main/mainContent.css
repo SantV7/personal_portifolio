@@ -31,7 +31,7 @@ main > .infoContent {
     margin-bottom: 15.5px;
 }
 .text_about_me > p {
-    margin-bottom: 33px;
+    margin-bottom: 20px;
     font-size: 21.77px;
 }
 
@@ -50,6 +50,10 @@ main > .infoContent {
     justify-content: center;
     width: 40%;
     align-items: center;
+}
+
+.i-config {
+    color: rgb(91, 98, 104);
 }
 
 
