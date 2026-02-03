@@ -7,9 +7,7 @@ import '../../style/header/btnIcons.css'
 import BtnContact from "./navbar/BtnContact";
 
 const Header = () => {
-
-    
-    const [ showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(true)
 
     const closeClickLink = () => {
         return  setShowMenu(!showMenu)
@@ -18,7 +16,6 @@ const Header = () => {
     const waitForProjects = () => {
         alert('Ainda estou preparando essa parte, espere mais um pouco por favor.\nAss by: Vinícius')
     }
-
  
     return(
         <>
@@ -26,7 +23,6 @@ const Header = () => {
             <div className="logo">
                 <h1>Portfólio</h1>
             </div>
-            
 
         { showMenu
           ? ('') 

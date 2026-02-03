@@ -12,7 +12,7 @@
 }
 
 #main-header > .logo {
-    font-size: clamp(17.65px, 18px, 19.6);
+    font-size: clamp(19px, 2vw, 20.6px);
     color: rgb(28, 41, 78);
     margin-bottom: 14.5px;
     z-index: 1002;
@@ -92,6 +92,7 @@
 
 
 @media screen and (min-width: 768px) {
+    
     #main-header > #menubar {
         display: none;
     }
