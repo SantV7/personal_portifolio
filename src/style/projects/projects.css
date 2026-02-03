@@ -5,7 +5,7 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     position: absolute;
-    top: 1630px;
+    top: 1930px;
     z-index: 2;
     background-color: rgb(44, 28, 60);
 }
@@ -53,14 +53,22 @@
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.403);
 }
 
-.card-one {
+.card {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(../../assets/img/laptop_img.jpg);
-}
-.card {
     filter: saturate(83%);
+}
+.card-one {
+    /* Here goes project */
+}
+
+.card-two {
+    /* Here goes project */
+}
+
+.card-three {
+    /* Here goes project */
 }
 .card:hover {
     filter: saturate(100%);

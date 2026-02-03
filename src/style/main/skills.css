@@ -40,7 +40,6 @@
     transition: scale 0.5s;
 }
 
-
 .icons_skills:hover {
     scale: 1.23;
     border-bottom: 3px solid rgb(84, 84, 246);
