@@ -2,10 +2,10 @@
     width: 100%;
     box-shadow: 0px 0px 5px rgba(13, 25, 58, 0.466);
     height: 100%;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 14.5px;
+    border-top-right-radius: 14.5px;
     position: absolute;
-    top: 1966px;
+    top: 2000px;
     z-index: 2;
     background-color: rgb(44, 28, 60);
 }
@@ -35,29 +35,41 @@
     align-items: start;
     flex-flow: row nowrap;
     gap: 18px;
-}
 
-.card-projects > .card {
-    width: 30%;
-    height: 50%;
-    background-color: rgb(91, 78, 103);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.293);
-    border-radius: 6px;
-    transition: all 0.75s ease;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    filter: saturate(83%);
-}
+    .card {
+        width: 30%;
+        height: 50%;
+        background-color: rgb(91, 78, 103);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.293);
+        border-radius: 6px;
+        transition: all 0.75s ease;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        filter: saturate(83%);
 
-.card-projects > .card:hover {
-    cursor: pointer;
-    scale: 1.055;
-    border-radius: 12px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.403);
-    filter: saturate(100%);
-}
+          &:hover {
+              cursor: pointer;
+              scale: 1.055;
+              border-radius: 12px;
+              box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.403);
+              filter: saturate(100%);
+          }
 
+        }
+    }
+    
+    .card-one {
+        background-image: url(../../assets/img/vetor-tech.png);
+    }
+
+    .card-two {
+        background-image: url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    }
+
+    .card-three {
+        background-image: url(../../assets/img/laptop_img.jpg);
+    }
 
 
 @media screen and (max-width:768px) {
