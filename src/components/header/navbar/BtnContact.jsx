@@ -1,8 +1,6 @@
 import '../../../style/header/btncontact.css'
 
-
 const BtnContact = () => {
-
 
     return(
         <>

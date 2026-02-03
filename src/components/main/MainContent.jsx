@@ -8,14 +8,13 @@ import gsap from 'gsap';
 
 
 const MainContent = () => {
-   
    useEffect(() => {
       gsap.fromTo('#inicio-text' , {
-        x: -200,
+      
       }, {
-        x: 0,
-        duration:1,
-        ease: 'power2.out',
+         duration:1,
+         ease: 'power2.out',
+         x: 0,
      })
 
      gsap.fromTo('#h3-about-me' , {
@@ -23,7 +22,7 @@ const MainContent = () => {
        }, {
         y:0,
         ease: 'power2',
-        duration: 1.3
+        duration: 1.7
      })
       
       ScrollReveal().reveal('.text_about_me' ,{

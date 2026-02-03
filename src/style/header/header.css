@@ -12,7 +12,7 @@
 }
 
 #main-header > .logo {
-    font-size: 17.5px;
+    font-size: clamp(17.65px, 18px, 19.6);
     color: rgb(28, 41, 78);
     margin-bottom: 14.5px;
     z-index: 1002;
@@ -28,21 +28,21 @@
     gap: 70px;
     list-style: none;
     padding: 0;
-    margin: 0;
-}
+    margin: 0;  
 
-#ul-desktop li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.1em;
-    padding: 7px;
-    border-radius: 10px;
-    font-weight: 550;
-    transition: ease 0.27s;
-}
-
-#ul-desktop li a:hover {
-    background-color: rgba(17, 17, 97, 0.183);
+    li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.17em;
+      padding: 7px;
+      border-radius: 10px;
+      font-weight: 550;
+      transition: ease 0.27s;     
+      
+      &:hover {
+        background-color: rgba(17, 17, 97, 0.183);
+      }
+    }
 }
 
 #nav-mobile {
@@ -54,19 +54,26 @@
     padding: 10px;
     background-color: rgb(236, 237, 253);
     z-index: 999;
-}
 
-#nav-mobile > #ul-mobile{
-    margin-bottom: 30px;
-    display: flex;
-    gap: 25px;
-    flex-flow: column nowrap;
-}
+     #ul-mobile {
+         margin-bottom: 30px;
+         display: flex;
+         gap: 25px;
+         flex-flow: column nowrap;
 
-#nav-mobile > #ul-mobile > li > a {
-    font-size: 1.2em;
-    text-decoration: none;
-    color: black;
+         li > a  {
+
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+             &:hover {
+                background-color: rgba(17, 17, 97, 0.183);
+             }
+         }
+     }
 }
 
 #main-header > #menubar {
@@ -81,6 +88,8 @@
 .iconChangeTheme {
     display: none;
 }
+
+
 
 @media screen and (min-width: 768px) {
     #main-header > #menubar {
