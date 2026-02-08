@@ -6,6 +6,7 @@ import './style/projects/projects.css'
 import { useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
 
+
 function App() {
 
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
       delay:134
     },)
   }, [])
+
 
   return (
     <>
@@ -28,9 +30,18 @@ function App() {
         </header>
 
         <div className="card-projects">
-          <div className="card card-one"></div>
-          <div className="card card-two"></div>
-          <div className="card card-three"></div>
+          <div className="card card-one">
+             <div className="card-img img-project-1"></div>
+             <div className="tittle-project-2">Pizzaria</div>
+          </div>
+          <div className="card card-two">
+             <div className="card-img img-project-2"></div>
+             <div className="tittle-project-2"></div>
+          </div>
+          <div className="card card-three">
+             <div className="card-img img-project-3"></div>
+             <div className="tittle-project-3">Formulário</div>
+          </div>
         </div>
       </section>
 

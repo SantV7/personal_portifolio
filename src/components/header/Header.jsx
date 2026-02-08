@@ -16,7 +16,8 @@ const Header = () => {
     const waitForProjects = () => {
         alert('Ainda estou preparando essa parte, espere mais um pouco por favor.\nAss by: Vinícius')
     }
- 
+
+    
     return(
         <>
          <header id="main-header">
@@ -40,7 +41,6 @@ const Header = () => {
           </nav>
         )
         }
-
 
             <div onClick={() => setShowMenu(!showMenu)} id="menubar">
                 {
