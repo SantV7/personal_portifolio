@@ -30,8 +30,14 @@ const MainContent = () => {
          duration: 1040,
          delay: 200
       },)
-      ScrollReveal().reveal('.paragraph_text_about_me', {
-         reset: true,
+      gsap.fromTo('.paragraph_text_about_me', {
+         opacity: 0,
+         x: -100
+      }, {
+         duration:0.7,
+         ease:'elastic.inOut',
+         opacity: 1,
+         x: 0
       })
 
       ScrollReveal().reveal('#skills_container' ,{

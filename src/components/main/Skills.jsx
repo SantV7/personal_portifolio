@@ -6,10 +6,29 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import '../../style/main/skills.css'
+import gsap from "gsap";
+import { useEffect } from "react";
 
 
 const Skills = () => {
+    useEffect(() => {
+        gsap.fromTo('.icons_skills' , {
+            opacity: 0.3,
+            y: -25,
+            scale: 0.8
+        }, {
+          duration: 0.75,
+          opacity: 1,
+          ease: 'power2',
+          stagger: {
+            each: 0.75,
+            from: 'start',
+          },
+          scale: 1
+          ,y: 0
+         })
 
+    }, [])
     
     return(
         <>
