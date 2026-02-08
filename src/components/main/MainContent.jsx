@@ -30,7 +30,6 @@ const MainContent = () => {
          duration: 1040,
          delay: 200
       },)
-
       ScrollReveal().reveal('.paragraph_text_about_me', {
          reset: true,
       })
