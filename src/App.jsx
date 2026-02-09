@@ -19,7 +19,6 @@ function App() {
   }, [])
 
 
-
   return (
     <>
       <Header />
@@ -33,15 +32,15 @@ function App() {
         <div className="card-projects">
           <div className="card card-one">
              <div className="card-img img-project-1"></div>
-             <div className="tittle-project tittle-project-2"><p>Pizzaria</p></div>
+             <div className="tittle-project tittle-project-2"><p>Pizzaria</p> <a className='btn-see-project' href="#">Ver site</a></div>
           </div>
           <div className="card card-two">
              <div className="card-img img-project-2"></div>
-             <div className="tittle-project tittle-project-2"><p>Blog</p></div>
+             <div className="tittle-project tittle-project-2"><p>Blog</p> <a className='btn-see-project' href="#">Ver site</a></div>
           </div>
           <div className="card card-three">
              <div className="card-img img-project-3"></div>
-             <div className="tittle-project tittle-project-3"><p>Formulário</p></div>
+             <div className="tittle-project tittle-project-3"><p>Formulário</p> <a className='btn-see-project' href="#">Ver site</a></div>
           </div>
         </div>
       </section>

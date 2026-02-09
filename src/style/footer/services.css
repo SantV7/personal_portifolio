@@ -108,9 +108,10 @@ footer > #area_icons_contact > .icons_contact:hover {
     border-bottom: 3px solid rgb(67, 115, 248);
 }
 
+
 @media screen and (max-width:768px) {
     footer {
        height: 100%;
-       top: 696px;
+       top: 1116px;
     }
 }

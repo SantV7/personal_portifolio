@@ -14,22 +14,23 @@ const Skills = () => {
     useEffect(() => {
         gsap.fromTo('.icons_skills' , {
             opacity: 0.3,
-            y: -25,
-            scale: 0.8
+            y: -25
         }, {
           duration: 0.75,
           opacity: 1,
           ease: 'power2',
           stagger: {
-            each: 0.75,
+            each: 0.35,
             from: 'start',
           },
-          scale: 1
-          ,y: 0
+          y: 0
          })
 
     }, [])
     
+
+
+
     return(
         <>
 
