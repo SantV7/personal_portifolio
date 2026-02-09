@@ -4,16 +4,15 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    height: 620px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(2, 6, 16, 0.989)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     margin-top: 300px;
     text-align: center;
     border-top-left-radius: 40px;
     position: relative;
-    top: 705px;
+    top: 775px;
     z-index: 3;
     border-top-right-radius: 40px;
 }
@@ -109,9 +108,13 @@ footer > #area_icons_contact > .icons_contact:hover {
 }
 
 
+
+
+
+
 @media screen and (max-width:768px) {
     footer {
        height: 100%;
-       top: 1116px;
+       top: 1206px;
     }
 }
