@@ -1,8 +1,7 @@
 #btn_contact {
     text-decoration: none;
-    background-color: rgb(167, 167, 254);
+    background-color: rgb(141, 141, 253);
     border: none;
-    margin-top: -9px;
     border-radius: 15px;
     color: white;
     text-align: center;
@@ -16,7 +15,7 @@
     animation: pulseBtn ease-in 1.6s infinite;
 
     &:hover {
-        background-color: rgb(142, 142, 255);
+        background-color: rgb(178, 178, 250);
     }
 }
 

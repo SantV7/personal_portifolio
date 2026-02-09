@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import '../../style/footer/services.css'
+import { MdEdgesensorHigh } from "react-icons/md";
 import ScrollReveal from "scrollreveal";
 import {useEffect} from "react";
 
@@ -22,7 +23,7 @@ const Services = () => {
           <footer id="footer">
             <div id="services_info">
                 <p className="text_footer">Para serviços</p>
-                <span className="text_footer">Entre em contato</span>
+                <span className="text_footer">Entre em contato <MdEdgesensorHigh size={30} color="orange" /> </span>
             </div>
 
 

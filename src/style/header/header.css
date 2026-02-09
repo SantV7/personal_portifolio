@@ -17,31 +17,44 @@
     margin-bottom: 14.5px;
     z-index: 1002;
 }
-
+.icon-header-hover {
+    opacity: 0;
+}
 #nav-desktop {
     display: none;
     z-index: 1001;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13.5px;
+        padding: 7px;
+        border-radius: 10px;
+        flex-flow: row nowrap;
+        transition: ease 0.3s;  
+
+        &:hover {
+            
+            background-color: rgba(17, 17, 97, 0.183);
+            .icon-header-hover {
+                opacity: 1;
+            }
+      }
+    }
 }
 
 #ul-desktop {
     display: flex;
-    gap: 70px;
+    align-items: center;
+    gap: 60px;
     list-style: none;
-    padding: 0;
-    margin: 0;  
 
     li a {
       text-decoration: none;
       color: black;
       font-size: 1.17em;
-      padding: 7px;
-      border-radius: 10px;
-      font-weight: 550;
-      transition: ease 0.27s;     
-      
-      &:hover {
-        background-color: rgba(17, 17, 97, 0.183);
-      }
+      font-weight: 550;  
     }
 }
 
