@@ -86,7 +86,7 @@
         padding-top: 20px;
         height: 23%;
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
         gap: 20px;
@@ -107,7 +107,7 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         background-color: rgb(255, 145, 0);
-        padding: 9.55px 44px;
+        padding: 9.55px 40px;
         font-size: 18px;
         transition: ease 0.7s;
         letter-spacing: 0.5px;

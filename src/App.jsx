@@ -32,7 +32,7 @@ function App() {
         <div className="card-projects">
           <div className="card card-one">
              <div className="card-img img-project-1"></div>
-             <div className="tittle-project tittle-project-2"><p>Pizzaria</p> <a className='btn-see-project' href="#">Ver site</a></div>
+             <div className="tittle-project tittle-project-2"><p>Pizzaria</p> <a className='btn-see-project' href="https://pizzaria-zeta-six.vercel.app/">Ver site</a></div>
           </div>
           <div className="card card-two">
              <div className="card-img img-project-2"></div>
