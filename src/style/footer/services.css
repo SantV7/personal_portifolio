@@ -50,12 +50,11 @@ footer > #services_info > span {
 }
 
 footer > #area_icons_contact {
-    width: 90%;
     margin-top: 135px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 48px;
+    gap: 45px;
     padding: 30px 5px;
 }
 
@@ -117,4 +116,9 @@ footer > #area_icons_contact > .icons_contact:hover {
        height: 100%;
        top: 1206px;
     }
+
+    footer > #area_icons_contact {
+        gap: 25px;
+    }
+    
 }
