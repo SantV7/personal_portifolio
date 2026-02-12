@@ -9,6 +9,8 @@
     background-position: center center;
     background-size: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     z-index: 1;
     height: 430px;
     margin-top: 300px;
@@ -31,7 +33,7 @@
     padding: 10px;
     border-radius: 8px;
     display: flex;
-    gap: 34.5px;
+    gap: 13.5px;
 }
 
 .icons_skills {
@@ -89,7 +91,7 @@
         transform: translateY(0);
     }
     50% {
-        scale: 1.065;
+        scale: 1.09;
         transform: translateY(4px);
     }
     100% {
