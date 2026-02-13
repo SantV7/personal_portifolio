@@ -145,8 +145,7 @@
         width: 86%;
 
         &:hover {
-            scale: 1.38;
-            height: 130%;
+            scale: 1.04;
         }
     }
     .btn-see-project {
