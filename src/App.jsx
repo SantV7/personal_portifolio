@@ -36,12 +36,18 @@ function App() {
           </div>
           <div className="card card-two">
              <div className="card-img img-project-2"></div>
-             <div className="tittle-project tittle-project-2"><p>Blog</p> <a className='btn-see-project' href="#">Ver site</a></div>
+             <div className="tittle-project tittle-project-2"><p>Blog</p> <a className='btn-see-project' href="#">Em criação...</a></div>
           </div>
           <div className="card card-three">
              <div className="card-img img-project-3"></div>
              <div className="tittle-project tittle-project-3"><p>Formulário</p> <a className='btn-see-project' href="https://formulario-eta-six.vercel.app/">Ver site</a></div>
           </div>
+
+          <div className="card card-four">
+             <div className="card-img img-project-4"></div>
+             <div className="tittle-project tittle-project-4"><p>Dashboard</p> <a className='btn-see-project' href="">Em criação...</a></div>
+          </div>
+
         </div>
       </section>
 

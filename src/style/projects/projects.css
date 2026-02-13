@@ -109,7 +109,7 @@
         background-color: rgb(255, 145, 0);
         padding: 9.55px 40px;
         font-size: 18px;
-        transition: ease 0.7s;
+        transition: ease 0.5s;
         letter-spacing: 0.5px;
         font-weight: 600;
         border-radius: 6.4px 16.6px;
@@ -120,7 +120,6 @@
         &:hover {
             background-color: rgb(255, 183, 0);
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.409);
-            padding: 9.55px 40px;
             border-radius: 16.4px 6.6px;
         }
     }
@@ -130,7 +129,7 @@
 @media screen and (max-width:768px) {
     #projects-area {
         top: 1700px;
-        height: 1505px;
+        height: 2005px;
     }
     
     .card-projects {
@@ -138,11 +137,11 @@
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        gap: 70px;
+        gap:140px;
     }
     .card-projects > .card {
         height: 100%;
-        width: 86%;
+        width: 100%;
 
         &:hover {
             scale: 1.04;
