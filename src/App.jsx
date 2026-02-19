@@ -45,7 +45,7 @@ function App() {
 
           <div className="card card-four">
              <div className="card-img img-project-4"></div>
-             <div className="tittle-project tittle-project-4"><p>Dashboard</p> <a className='btn-see-project' href="">Em criação...</a></div>
+             <div className="tittle-project tittle-project-4"><p>Dashboard</p> <a className='btn-see-project' href="https://dashboard-coins.vercel.app/">Em criação...</a></div>
           </div>
 
         </div>

@@ -9,11 +9,11 @@ import '../../style/main/skills.css'
 import gsap from "gsap";
 import { useEffect } from "react";
 
-
 const Skills = () => {
+ 
     useEffect(() => {
         gsap.fromTo('.icons_skills' , {
-            opacity: 0.3,
+            opacity: 0.8,
             y: -25
         }, {
           duration: 0.75,

@@ -11,6 +11,8 @@
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-bottom-right-radius: 6.55px;
+    border-bottom-left-radius: 6.55px;
     z-index: 1;
     height: 430px;
     margin-top: 300px;
