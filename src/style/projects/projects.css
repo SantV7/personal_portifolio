@@ -81,6 +81,10 @@
         background-image: url(../../assets/img/image\ copy.png);
     }
 
+    .card-four > .img-project-4 {
+        background-image: url(../../assets/img/{A1BEE2E5-B7E6-41CD-BE1A-38583C809096}.png);
+    }
+
     .card-projects > .card > .tittle-project {
         padding-top: 20px;
         height: 23%;
