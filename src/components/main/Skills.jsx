@@ -51,6 +51,13 @@ const Skills = () => {
                 </a>
             </div>
         </div>
+
+        <div id="htmlExplication">
+            <h3>HTML5</h3>
+            <div className="content-explication">
+                <p>O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos, interativos </p>
+            </div>
+        </div>
         </>
     )
 }

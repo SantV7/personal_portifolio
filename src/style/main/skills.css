@@ -107,6 +107,27 @@
     text-decoration: none;
 }
 
+#htmlExplication {
+    position: absolute;
+    top: 1425px;
+    height: 180px;
+    width: 60%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(73, 135, 229);
+    border-right: 4px solid rgb(73, 135, 229);
+
+    .content-explication {
+        
+    }
+    h3 {
+        text-align: center;
+        font-size: 21.7px;
+        color: rgb(158, 12, 12);
+        text-shadow: 1px 1px 0px rgba(74, 21, 32, 0.459);
+    }
+}
 
 
 
@@ -158,4 +179,5 @@
     .icons_skills {
         font-size: 55.56px;
     }    
+
 }

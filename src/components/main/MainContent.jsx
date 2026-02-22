@@ -51,13 +51,13 @@ const MainContent = () => {
           <main id='main-info-content'>
             <section className='infoContent'>
                <div id='inicio-text' className='text_about_me'>
-                  <h3 id='h3-about-me'>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3> 
+                  <h3 id='h3-about-me' title='Apresentação sobre'>Sobre mim  <LuArrowBigDownDash id='arrow_me' /></h3> 
                   <lord-icon id="icon-man-people" src="https://cdn.lordicon.com/daeumrty.json"  
                   colors="primary:#d59f80,secondary:#848484,tertiary:#0a4e5c,quaternary:#242424" 
                   delay="1730" state="hover-hower" trigger="loop"></lord-icon>
 
-                  <p className='paragraph_text_about_me'>Me chamo Vinícius. Tenho 18 anos.</p>
-                  <p className='paragraph_text_about_me'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
+                  <p className='paragraph_text_about_me' title='Vinícius dos Santos Oliveira, 18 anos'>Me chamo Vinícius. Tenho 18 anos.</p>
+                  <p className='paragraph_text_about_me' title='Profissional responsável por construir a interface visual e interativa de sites e aplicações.'>Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
                    Tenho o foco em criar interfaces modernas e funcionais. Atualmente estudo as tecnologias essenciais para a web: HTML, CSS, JavaScript e React.
                   Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
                   onde possa contribuir com minhas habilidades, aprender e evoluir constantemente como desenvolvedor.</p>
