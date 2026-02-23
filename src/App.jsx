@@ -10,6 +10,8 @@ import ScrollReveal from 'scrollreveal'
 function App() {
 
   useEffect(() => {
+    alert('Essa página esta sempre em evolução, portanto, não considere o portfólio em seu estado final. Ass: Vinícius')
+
     ScrollReveal().reveal('.card', {
       reset: true,
       easing: 'ease-out',
