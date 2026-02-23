@@ -7,9 +7,14 @@ import { FaReact } from "react-icons/fa";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import '../../style/main/skills.css'
 import gsap from "gsap";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Skills = () => {
+
+    const [stateHtml, setStateHtml] = useState(null)
+    const [stateCss, setStateCss] = useState(null)
+    const [stateJs, setStateJs] = useState(null)
+    const [stateReact, setStateReact] = useState(null)
  
     useEffect(() => {
         gsap.fromTo('.icons_skills' , {
@@ -26,13 +31,13 @@ const Skills = () => {
           y: 0
          })
 
+         setStateHtml(document.getElementById('htmlExplication'))
+         setStateCss(document.getElementById('cssExplication'))
+         setStateJs(document.getElementById('jsExplication'))
+         setStateReact(document.getElementById('reactExplication'))
+       
+        }, [])
 
-    let htmlExplication = document.getElementById('htmlExplication')
-    let cssExplication = document.getElementById('cssExplication')
-    let jsExplication = document.getElementById('jsExplication')
-    let reactExplication = document.getElementById('reactExplication')         
-    }, [])
-// CONSERTAR
 
 
 
@@ -45,39 +50,37 @@ const Skills = () => {
     ]
 
   
-    
-
     const showHtml = () => {
-        htmlExplication.style.display = 'flex'
+        stateHtml.style.display = 'flex'
     }
-
     const showCss = () => {
         cssExplication.style.display = 'flex'
     }
-
     const showJs = () => {
-        jsExplication.style.display = 'flex'
+        stateJs.style.display = 'flex'
     }
-
     const showReact = () => {
         reactExplication.style.display = 'flex'
     }
 
-    const hiddenHtml = () => {
-        htmlExplication.style.display = 'none'
-    }
 
+    const hiddenHtml = () => {
+        stateHtml.style.display = 'none'
+    }
     const hiddenCss = () => {
         cssExplication.style.display = 'none'
     }
-
     const hiddenJs = () => {
-        jsExplication.style.display = 'none'
+        stateJs.style.display = 'none'
     }    
-
     const hiddenReact = () => {
         reactExplication.style.display = 'none'
     }
+
+
+
+
+
 
     return(
         <>
@@ -86,11 +89,35 @@ const Skills = () => {
          </div>
             
         <div id="area_skills">
-            <div onMouseOver={() => showHtml()}><FaHtml5  className="icons_skills" id="icon_html"/></div>
-            <div onMouseOver={() => showCss()}><FaCss3Alt className="icons_skills" id="icon_css"/></div>
-            <div onMouseOver={() => showJs()}><IoLogoJavascript className="icons_skills" id="icon_js" /></div>
-            <div onMouseOver={() => showReact()}><FaReact className="icons_skills" id="icon_react"/></div>
+            <div 
+            onMouseOver={() => showHtml()}
+            onMouseOut={() => hiddenHtml()}>
+            <FaHtml5  className="icons_skills" id="icon_html"/>
+        </div>
+
+        <div 
+            onMouseOver={() => showCss()} 
+            onMouseOut={() => hiddenCss()}
+            >
+            <FaCss3Alt className="icons_skills" id="icon_css"/>
+        </div>
+
+        <div 
+            onMouseOver={() => showJs()} 
+            onMouseOut={() => hiddenJs()}>
+            <IoLogoJavascript className="icons_skills" id="icon_js" />
+        </div>
+
+        <div 
+            onMouseOver={() => showReact()} 
+            onMouseOut={() => hiddenReact()}>
+            <FaReact className="icons_skills" id="icon_react"/>
+        </div>
+
             <div><FaGitAlt className="icons_skills" id="icon_git"/></div>
+
+
+
             <div id="box-github">
                 <FaArrowTurnDown id="arrow_to_github" />
                 <a href="https://github.com/SantV7">
@@ -99,7 +126,8 @@ const Skills = () => {
             </div>
         </div>
 
-        <div onMouseOut={() => hiddenHtml()} className="classExplication" id="htmlExplication">
+        <div onMouseOver={() => showHtml()}
+            onMouseOut={() => hiddenHtml()} className="classExplication" id="htmlExplication">
             <h3 id="tittle-html">{techNames[0].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[0].textExplication}</p>
@@ -107,30 +135,27 @@ const Skills = () => {
         </div>
 
 
-        <div onMouseOut={() => hiddenCss()} className="classExplication" id="cssExplication">
+        <div onMouseOver={() => showCss()} 
+            onMouseOut={() => hiddenCss()} className="classExplication" id="cssExplication">
             <h3 id="tittle-css">{techNames[1].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[1].textExplication}</p>
             </div>
         </div>
 
-        <div onMouseOut={() => hiddenJs()} className="classExplication" id="jsExplication">
+        <div onMouseOver={() => showJs()} onMouseOut={() => hiddenJs()} className="classExplication" id="jsExplication">
             <h3 id="tittle-js">{techNames[2].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[2].textExplication}</p>
             </div>
         </div>        
 
-        <div onMouseOut={() => hiddenReact()} className="classExplication" id="reactExplication">
+        <div onMouseOver={() => showReact()} onMouseOut={() => hiddenReact()}className="classExplication" id="reactExplication">
             <h3 id="tittle-react">{techNames[3].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[3].textExplication}</p>
             </div>
         </div>
-
-
-
-
 
 
         </>
