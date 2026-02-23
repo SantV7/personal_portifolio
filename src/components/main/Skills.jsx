@@ -26,7 +26,15 @@ const Skills = () => {
           y: 0
          })
 
+
+    let htmlExplication = document.getElementById('htmlExplication')
+    let cssExplication = document.getElementById('cssExplication')
+    let jsExplication = document.getElementById('jsExplication')
+    let reactExplication = document.getElementById('reactExplication')         
     }, [])
+// CONSERTAR
+
+
 
     const techNames = [
         {nomeTech: 'HTML5', textExplication: 'O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos e interativos. é aqui com a estrutura é feita'}, 
@@ -37,12 +45,6 @@ const Skills = () => {
     ]
 
   
-    
-    let htmlExplication = document.getElementById('htmlExplication')
-    let cssExplication = document.getElementById('cssExplication')
-    let jsExplication = document.getElementById('jsExplication')
-    let reactExplication = document.getElementById('reactExplication')
-
     
 
     const showHtml = () => {
@@ -98,7 +100,7 @@ const Skills = () => {
         </div>
 
         <div onMouseOut={() => hiddenHtml()} className="classExplication" id="htmlExplication">
-            <h3>{techNames[0].nomeTech}</h3>
+            <h3 id="tittle-html">{techNames[0].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[0].textExplication}</p>
             </div>
@@ -106,21 +108,21 @@ const Skills = () => {
 
 
         <div onMouseOut={() => hiddenCss()} className="classExplication" id="cssExplication">
-            <h3>{techNames[1].nomeTech}</h3>
+            <h3 id="tittle-css">{techNames[1].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[1].textExplication}</p>
             </div>
         </div>
 
         <div onMouseOut={() => hiddenJs()} className="classExplication" id="jsExplication">
-            <h3>{techNames[2].nomeTech}</h3>
+            <h3 id="tittle-js">{techNames[2].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[2].textExplication}</p>
             </div>
         </div>        
 
         <div onMouseOut={() => hiddenReact()} className="classExplication" id="reactExplication">
-            <h3>{techNames[3].nomeTech}</h3>
+            <h3 id="tittle-react">{techNames[3].nomeTech}</h3>
             <div className="content-explication">
                 <p>{techNames[3].textExplication}</p>
             </div>

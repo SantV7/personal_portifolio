@@ -115,7 +115,6 @@
     align-items: center;
     text-align: left;
     top: 1425px;
-    height: 270px;
     width: 63.5%;
     background-color: white;
     padding: 10px;
@@ -133,8 +132,23 @@
     h3 {
         text-align: center;
         font-size: 21.7px;
-        color: rgb(158, 12, 12);
         text-shadow: 1px 1px 0px rgba(74, 21, 32, 0.459);
+    }
+
+    #tittle-html {
+        color: red;
+    }
+
+    #tittle-css {
+        color: rgb(179, 179, 248);
+    }
+
+    #tittle-js {
+        color: rgb(226, 226, 90);
+    }
+
+    #tittle-react {
+        color: rgb(163, 163, 255);
     }
 }
 
@@ -170,6 +184,9 @@
         font-size: 51.53px;
     }
 
+    .classExplication {
+        width: 350px;
+    }    
 }
 
 @media screen and (min-width:1024px) {
@@ -188,5 +205,9 @@
     .icons_skills {
         font-size: 55.56px;
     }    
+
+    .classExplication {
+        width: 370px;
+    }
 
 }
