@@ -27,7 +27,26 @@ const Skills = () => {
          })
 
     }, [])
+
+    const techNames = [
+        {nomeTech: 'HTML5', textExplication: 'O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos e interativos. é aqui com a estrutura é feita'}, 
+        {nomeTech: 'CSS3', textExplication: 'O CSS3 é a linguagem de estilos que define a aparência visual dos elementos HTML, permitindo criar layouts bonitos, responsivos e animações interativas para uma experiência de usuário atraente'}, 
+        {nomeTech: 'JavaScript', textExplication: 'O JavaScript é a linguagem de programação que adiciona interatividade e dinamismo às páginas web, permitindo manipular elementos, responder a eventos e criar funcionalidades complexas no navegador'}, 
+        {nomeTech: 'React', textExplication: 'O React é uma biblioteca JavaScript para construir interfaces de usuário interativas, baseada em componentes reutilizáveis que facilitam a criação de aplicações web modernas e de alta performance'},
+        {nomeTech: 'Git', textExplication: 'O Git é um sistema de controle de versão distribuído que permite rastrear alterações no código, colaborar com outros desenvolvedores e gerenciar diferentes versões de um projeto de forma eficiente'}
+    ]
+
+  
     
+    let htmlExplication = document.getElementById('htmlExplication')
+
+    const showHtml = () => {
+         htmlExplication.style.display = 'flex'
+    }
+
+    const hiddenHtml = () => {
+        htmlExplication.style.display = 'none'
+    }
 
 
 
@@ -39,7 +58,7 @@ const Skills = () => {
          </div>
             
         <div id="area_skills">
-            <div><FaHtml5 className="icons_skills" id="icon_html"/></div>
+            <div onMouseOver={() => showHtml()}><FaHtml5  className="icons_skills" id="icon_html"/></div>
             <div><FaCss3Alt className="icons_skills" id="icon_css"/></div>
             <div><IoLogoJavascript className="icons_skills" id="icon_js" /></div>
             <div><FaReact className="icons_skills" id="icon_react"/></div>
@@ -52,10 +71,10 @@ const Skills = () => {
             </div>
         </div>
 
-        <div id="htmlExplication">
-            <h3>HTML5</h3>
+        <div onMouseOut={() => hiddenHtml()} id="htmlExplication">
+            <h3>{techNames[0].nomeTech}</h3>
             <div className="content-explication">
-                <p>O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos, interativos </p>
+                <p>O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos e interativos. é aqui com a estrutura é feita </p>
             </div>
         </div>
         </>
