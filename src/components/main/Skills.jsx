@@ -39,29 +39,55 @@ const Skills = () => {
   
     
     let htmlExplication = document.getElementById('htmlExplication')
+    let cssExplication = document.getElementById('cssExplication')
+    let jsExplication = document.getElementById('jsExplication')
+    let reactExplication = document.getElementById('reactExplication')
+
+    
 
     const showHtml = () => {
-         htmlExplication.style.display = 'flex'
+        htmlExplication.style.display = 'flex'
+    }
+
+    const showCss = () => {
+        cssExplication.style.display = 'flex'
+    }
+
+    const showJs = () => {
+        jsExplication.style.display = 'flex'
+    }
+
+    const showReact = () => {
+        reactExplication.style.display = 'flex'
     }
 
     const hiddenHtml = () => {
         htmlExplication.style.display = 'none'
     }
 
+    const hiddenCss = () => {
+        cssExplication.style.display = 'none'
+    }
 
+    const hiddenJs = () => {
+        jsExplication.style.display = 'none'
+    }    
+
+    const hiddenReact = () => {
+        reactExplication.style.display = 'none'
+    }
 
     return(
         <>
-
          <div className="logo_skills">
              <h3>Skills</h3>
          </div>
             
         <div id="area_skills">
             <div onMouseOver={() => showHtml()}><FaHtml5  className="icons_skills" id="icon_html"/></div>
-            <div><FaCss3Alt className="icons_skills" id="icon_css"/></div>
-            <div><IoLogoJavascript className="icons_skills" id="icon_js" /></div>
-            <div><FaReact className="icons_skills" id="icon_react"/></div>
+            <div onMouseOver={() => showCss()}><FaCss3Alt className="icons_skills" id="icon_css"/></div>
+            <div onMouseOver={() => showJs()}><IoLogoJavascript className="icons_skills" id="icon_js" /></div>
+            <div onMouseOver={() => showReact()}><FaReact className="icons_skills" id="icon_react"/></div>
             <div><FaGitAlt className="icons_skills" id="icon_git"/></div>
             <div id="box-github">
                 <FaArrowTurnDown id="arrow_to_github" />
@@ -71,12 +97,40 @@ const Skills = () => {
             </div>
         </div>
 
-        <div onMouseOut={() => hiddenHtml()} id="htmlExplication">
+        <div onMouseOut={() => hiddenHtml()} className="classExplication" id="htmlExplication">
             <h3>{techNames[0].nomeTech}</h3>
             <div className="content-explication">
-                <p>O HTML5 é a versão mais moderna da linguagem de marcação para a web, essencial para criar sites responsivos e interativos. é aqui com a estrutura é feita </p>
+                <p>{techNames[0].textExplication}</p>
             </div>
         </div>
+
+
+        <div onMouseOut={() => hiddenCss()} className="classExplication" id="cssExplication">
+            <h3>{techNames[1].nomeTech}</h3>
+            <div className="content-explication">
+                <p>{techNames[1].textExplication}</p>
+            </div>
+        </div>
+
+        <div onMouseOut={() => hiddenJs()} className="classExplication" id="jsExplication">
+            <h3>{techNames[2].nomeTech}</h3>
+            <div className="content-explication">
+                <p>{techNames[2].textExplication}</p>
+            </div>
+        </div>        
+
+        <div onMouseOut={() => hiddenReact()} className="classExplication" id="reactExplication">
+            <h3>{techNames[3].nomeTech}</h3>
+            <div className="content-explication">
+                <p>{techNames[3].textExplication}</p>
+            </div>
+        </div>
+
+
+
+
+
+
         </>
     )
 }
