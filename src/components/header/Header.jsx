@@ -11,7 +11,7 @@ const Header = () => {
     const [showMenu, setShowMenu] = useState(true)
 
     const closeClickLink = () => {
-        return  setShowMenu(!showMenu)
+        setShowMenu(!showMenu)
     }
 
     
@@ -23,14 +23,13 @@ const Header = () => {
             </div>
 
         { showMenu
-          ? ('') 
+          ? (null) 
           : (
           <nav id="nav-mobile">
               <ul id="ul-mobile">
                   <li><a onClick={() => closeClickLink()} href="#main-info-content">Inicio</a></li>
                   <li><a onClick={() => {
                     closeClickLink()
-                    waitForProjects()
                   }} href="#">Projetos</a></li>
                   <li><a onClick={() => closeClickLink()} href="#transition_for_skills">Skills</a></li>          
                   <BtnContact />

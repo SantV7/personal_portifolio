@@ -63,7 +63,7 @@ const Services = () => {
                 <a target='_blank' role="link" className="icones_contact_link" href="https://www.linkedin.com/in/viniciussant07">
                   <FaLinkedin id="linkedin_icon" className="icons_contact" size={48} />
                 </a>
-                <a target='_blank' role="link" className="icones_contact_link" href="www.youtube.com/@vy.S17">
+                <a target='_blank' role="link" className="icones_contact_link" href="https://www.youtube.com/@vy.S17">
                   <FaYoutube id="yt_icon" className="icons_contact" size={48} />
                 </a>
                 <a target='_blank' role="link" className="icones_contact_link" href="https://github.com/SantV7">

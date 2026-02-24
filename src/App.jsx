@@ -10,7 +10,6 @@ import ScrollReveal from 'scrollreveal'
 function App() {
 
   useEffect(() => {
-    alert('Essa página esta em manutenção, talvez algumas coisas estejam fora do lugar. Ass: Vinícius')
 
     ScrollReveal().reveal('.card', {
       reset: true,
