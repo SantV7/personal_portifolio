@@ -19,9 +19,7 @@ const Navbar = () => {
             opacity: 1
         })
     }, [])
-   const waitForProjects = () => {
-     alert('Espere mais um pouco. As imagens são só ilustrações, e não projetos reais...\nAss by: Vinícius')
-   }
+
 
     return(
         <>

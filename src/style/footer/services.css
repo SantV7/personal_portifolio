@@ -8,12 +8,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    margin-top: 300px;
+    margin-top: 90px;
     text-align: center;
     border-top-left-radius: 40px;
-    position: relative;
-    top: 775px;
-    z-index: 3;
     border-top-right-radius: 40px;
 }
 
@@ -109,7 +106,7 @@ footer > #area_icons_contact > .icons_contact:hover {
 
 
 
-
+/* MOBILE */
 
 @media screen and (max-width:768px) {
     footer {

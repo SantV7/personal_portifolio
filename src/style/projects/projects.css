@@ -1,157 +1,140 @@
 #projects-area {
     width: 100%;
     box-shadow: 0px 0px 5px rgba(13, 25, 58, 0.466);
-    height: 110%;
+    min-height: 600px;
     border-top-left-radius: 14.5px;
     border-top-right-radius: 14.5px;
-    position: absolute;
-    top: 2000px;
-    z-index: 2;
     background-color: rgb(44, 28, 60);
+    padding: 60px 20px;
 }
 
-#projects-area > #projects-header {
+/* HEADER */
+
+#projects-header {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 6px;
     align-items: center;
 }
 
-#projects-area > #projects-header > h3 {
+#projects-header h3 {
     border-bottom: 5px solid rgb(89, 89, 255);
     font-size: 35px;
-    padding-top: 20px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     border-radius: 3.6px;
 }
 
+/* CONTAINER DOS CARDS */
+
 .card-projects {
-    padding: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* CARD */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 300px;
+    max-width: 350px;
+    height: 370px;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    filter: saturate(110%);
+}
+
+/* IMAGEM */
+
+.card-img {
     width: 100%;
-    height: 100.5%;
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 13px rgba(44, 44, 82, 0.349);
+}
+
+/* BACKGROUNDS */
+
+.img-project-1 {
+    background-image: url(../../assets/img/image.png);
+}
+
+.img-project-2 {
+    background-image: url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+}
+
+.img-project-3 {
+    background-image: url(../../assets/img/image\ copy.png);
+}
+
+.img-project-4 {
+    background-image: url(../../assets/img/{A1BEE2E5-B7E6-41CD-BE1A-38583C809096}.png);
+}
+
+/* TÍTULO + BOTÃO */
+
+.tittle-project {
+    margin-top: 15px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    flex-flow: row nowrap;
-    gap: 18px;
+    align-items: center;
+}
+
+.tittle-project p {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 4px solid rgb(133, 133, 248);
+    padding-bottom: 3px;
+}
+
+/* BOTÃO */
+
+.btn-see-project {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 145, 0);
+    padding: 8px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px 16px;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
+}
+
+.btn-see-project:hover {
+    background-color: rgb(255, 183, 0);
+    transform: scale(1.05);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    #projects-area {
+        padding: 50px 15px;
+    }
 
     .card {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        width: 30%;
-        height: 50%;
-        border-radius: 8px;
-        transition: all 0.75s ease;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        filter: saturate(83%);
-        flex-flow: column nowrap;
-
-          &:hover {
-              cursor: pointer;
-              scale: 1.053;
-              border-radius: 12px;
-              filter: saturate(100%);
-          }
-        }
+        max-width: 100%;
+        height: 350px;
     }
 
-    .card-img {
-        width: 100%;
-        height: 77%;
-        background-size: cover;
-        border-radius: 4px;
-        box-shadow: 0px 0px 13px rgba(44, 44, 82, 0.349);
-        background-position: center center; 
-    }
-    
-    .card-one > .img-project-1 {
-        background-image: url(../../assets/img/image.png);
+    .tittle-project {
+        flex-direction: column;
+        gap: 15px;
     }
 
-    .card-two > .img-project-2 {
-        background-image: url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
-    }
-
-    .card-three > .img-project-3 {
-        background-image: url(../../assets/img/image\ copy.png);
-    }
-
-    .card-four > .img-project-4 {
-        background-image: url(../../assets/img/{A1BEE2E5-B7E6-41CD-BE1A-38583C809096}.png);
-    }
-
-    .card-projects > .card > .tittle-project {
-        padding-top: 20px;
-        height: 23%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-        width: 70%;
-        background-color: transparent;
-
-        p {
-            color: white;
-            border-radius: 2.4px;
-            font-size: clamp(20px, 23px, 25px);
-            font-weight: 600;
-            padding-bottom: 3px;
-            border-bottom: 4px solid rgb(133, 133, 248);
-        }
-    }
-
-    .btn-see-project {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        background-color: rgb(255, 145, 0);
-        padding: 9.55px 40px;
-        font-size: 18px;
-        transition: ease 0.5s;
-        letter-spacing: 0.5px;
-        font-weight: 600;
-        border-radius: 6.4px 16.6px;
-        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.627);
-        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.458);
-        border: 1px solid rgba(0, 0, 0, 0.511);
-
-        &:hover {
-            background-color: rgb(255, 183, 0);
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.409);
-            border-radius: 16.4px 6.6px;
-        }
-    }
-
-
-
-@media screen and (max-width:768px) {
-    #projects-area {
-        top: 1700px;
-        height: 2005px;
-    }
-    
-    .card-projects {
-        height: 80%;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column;
-        gap:140px;
-    }
-    .card-projects > .card {
-        height: 100%;
-        width: 100%;
-
-        &:hover {
-            scale: 1.04;
-        }
-    }
-    .btn-see-project {
-        padding: 8px 25px;
-    }
-    
 }

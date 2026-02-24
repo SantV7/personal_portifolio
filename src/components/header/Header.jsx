@@ -14,10 +14,6 @@ const Header = () => {
         return  setShowMenu(!showMenu)
     }
 
-    const waitForProjects = () => {
-        alert('Ainda estou preparando essa parte, espere mais um pouco por favor.\nAss by: Vinícius')
-    }
-
     
     return(
         <>
