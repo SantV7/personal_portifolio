@@ -10,7 +10,6 @@ import gsap from 'gsap';
 const MainContent = () => {
    useEffect(() => {
       gsap.fromTo('#inicio-text' , {
-      
       }, {
          duration:1,
          ease: 'power2.out',
