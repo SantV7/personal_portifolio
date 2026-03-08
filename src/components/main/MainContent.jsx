@@ -61,7 +61,7 @@ const MainContent = () => {
                     <p className='paragraph_text_about_me' title='Vinícius dos Santos Oliveira, 18 anos'>
                         Me chamo Vinícius. Tenho 18 anos.
                     </p>
-                    <p className='paragraph_text_about_me' title='Desenvolvedor Web - Frontend'>
+                    <p id='p-box' className='paragraph_text_about_me' title='Desenvolvedor Web - Frontend'>
                         Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
                         Tenho o foco em criar interfaces modernas e funcionais. Atualmente estudo as tecnologias essenciais para a web: HTML, CSS, JavaScript e React.
                         Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
