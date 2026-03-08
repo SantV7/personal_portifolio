@@ -11,7 +11,8 @@ const Services = () => {
    const footerRef = useRef(null);
 
    useEffect(() => {
-      const ctx = gsap.context(() => {
+      let ctx = gsap.context(() => {
+         
          gsap.from("#footer", {
             scrollTrigger: {
                trigger: "#footer",
@@ -19,7 +20,8 @@ const Services = () => {
                toggleActions: "play none none reverse",
             },
             opacity: 0,
-            duration: 1.2
+            duration: 1.2,
+            clearProps: "all"
          });
 
          gsap.from(".icones_contact_link", {
@@ -32,8 +34,10 @@ const Services = () => {
             opacity: 0,
             duration: 0.8,
             stagger: 0.1,
-            ease: "power2.out"
+            ease: "power2.out",
+            clearProps: "all"
          });
+
       }, footerRef);
 
       return () => ctx.revert();

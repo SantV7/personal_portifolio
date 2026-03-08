@@ -1,213 +1,115 @@
-#skills_container {
+#skills-section {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-flow: column;
-    background-image:linear-gradient(rgba(48, 79, 163, 0.288), rgba(19, 16, 32, 0.836)),
-    url(../../assets/img/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 6.55px;
-    border-bottom-left-radius: 6.55px;
-    height: 430px;
-    margin-top: 300px;
-    margin-bottom: 130px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    contain: layout;
 }
 
-.logo_skills > h3 {
-    color: white;
-    text-shadow: 1.6px 1.6px 1px rgb(141, 122, 254);
-    text-align: center;
-    width: 130px;
-    border-bottom: 3px solid rgb(79, 52, 185);
-    margin-bottom: 150px;
-    border-radius: 4px;
-    font-size: 39px;
-    transition: ease 0.40s;
+#skills-section .logo_skills h3 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #area_skills {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 8px;
     display: flex;
-    gap: 13.5px;
+    justify-content: center;
+    gap: 35px;
+    margin: 50px 0;
+    flex-wrap: wrap;
 }
 
 .icons_skills {
-    font-size: 48px;
-    transition: scale 0.5s;
+    font-size: 55px;
+    transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
 }
 
-.icons_skills:hover {
-    scale: 1.23;
-    border-bottom: 3px solid rgb(84, 84, 246);
+#icon_html { color: rgba(227, 79, 38, 0.4); }
+#icon_css { color: rgba(21, 114, 182, 0.4); }
+#icon_js { color: rgba(247, 223, 30, 0.4); }
+#icon_react { color: rgba(97, 218, 251, 0.4); }
+#icon_git { color: rgba(240, 80, 50, 0.4); }
+#icon_github { color: rgba(255, 255, 255, 0.4); }
+
+.skill-icon-wrapper:hover .icons_skills {
+    transform: scale(1.2);
 }
 
-#icon_html {
-    color: red;
+#icon_html:hover { color: rgba(227, 79, 38, 1); }
+#icon_css:hover { color: rgba(21, 114, 182, 1); }
+#icon_js:hover { color: rgba(247, 223, 30, 1); }
+#icon_react:hover { color: rgba(97, 218, 251, 1); }
+#icon_git:hover { color: rgba(240, 80, 50, 1); }
+#icon_github:hover { color: rgba(255, 255, 255, 1); }
+
+.explanation-container {
+    width: 90%;
+    max-width: 700px;
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
 }
 
-#icon_css {
-    color: rgb(105, 105, 190);
+.classExplication {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(172, 166, 255, 0.6);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#icon_js {
-    color: rgb(242, 250, 8);
-    width: 37.67px;
+.classExplication h3 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
 }
 
-#icon_react {
-    color:rgb(128, 150, 221);
-}
+.title-html { color: #E34F26; }
+.title-css { color: #1572B6; }
+.title-js { color: #F7DF1E; }
+.title-react { color: #61DAFB; }
+.title-git { color: #F05032; }
 
-#icon_git {
-    color: rgb(252, 68, 68);
+.content-explication p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #e0e0e0;
 }
 
 #box-github {
     display: flex;
-    flex-flow: column;
     justify-content: center;
-    align-items: center;
-}
-
-#box-github > a >  #icon_github {
-    color: rgb(53, 66, 203);
+    position: relative;
 }
 
 #arrow_to_github {
-    font-size: 44px;
-    margin-top: -45px;
-    padding-bottom: 18px;
-    color: rgb(123, 163, 250);
-    animation: arrow-moving ease-in-out 1.85s infinite;
-}
-
-@keyframes arrow-moving {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        scale: 1.09;
-        transform: translateY(4px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-#icon_github {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-}
-
-.classExplication {
     position: absolute;
-    display: none;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    top: 1425px;
-    width: 63.5%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    border-bottom: 3px solid rgb(73, 135, 229);
-    border-right: 4px solid rgb(56, 128, 235);
-
-    .content-explication {
-        width: 80%;
-        padding: 10px;
-        font-size: 17px;
-        font-weight: 500;
-    }
-
-    h3 {
-        text-align: center;
-        font-size: 21.7px;
-        text-shadow: 1px 1px 0px rgba(74, 21, 32, 0.459);
-    }
-
-    #tittle-html {
-        color: red;
-    }
-
-    #tittle-css {
-        color: rgb(179, 179, 248);
-    }
-
-    #tittle-js {
-        color: rgb(226, 226, 90);
-    }
-
-    #tittle-react {
-        color: rgb(163, 163, 255);
-    }
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-15deg);
+    font-size: 1.5rem;
+    color: #675afa;
+    pointer-events: none;
 }
 
-
-
-
-@media screen and (min-width:768px) and (max-width:1023px) {
-
-    #skills_container {
-        width: 94%;
-        border-radius: 10px;
-        height: 485px;
-        margin-top: 274px;
+@media screen and (max-width: 768px) {
+    #skills-section .logo_skills h3 {
+        font-size: 2.2rem;
     }
-
-    .logo_skills > h3 {     
-        text-shadow: 1.3px 1.3px 1px rgb(131, 160, 253);
-        font-size: 50px;
-        width: 145px;
-    
+    .explanation-container {
+        height: 200px;
     }
-
-    #area_skills {
-        gap: 75px;
-    }
-
-    .icons_skills {
-        font-size: 52.56px;
-    }
-
-    #arrow_to_github {
-        margin-top: -55px;
-        font-size: 51.53px;
-    }
-
-    .classExplication {
-        width: 350px;
-    }    
-}
-
-@media screen and (min-width:1024px) {
-    #skills_container {
-        width: 80%;
-        height: 565px;
-        border-radius: 6.65px;
-    }
-    #area_skills {
-        gap: 95px;
-    }
-    .logo_skills > h3 {
-        font-size: 53px;
-    }
-
-    .icons_skills {
-        font-size: 55.56px;
-    }    
-
-    .classExplication {
-        width: 370px;
-    }
-
 }
