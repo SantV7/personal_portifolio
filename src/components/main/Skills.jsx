@@ -35,7 +35,6 @@ const Skills = () => {
          setStateCss(document.getElementById('cssExplication'))
          setStateJs(document.getElementById('jsExplication'))
          setStateReact(document.getElementById('reactExplication'))
-       
         }, [])
 
 
@@ -76,8 +75,6 @@ const Skills = () => {
     const hiddenReact = () => {
         reactExplication.style.display = 'none'
     }
-
-
 
 
 
