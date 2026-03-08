@@ -44,29 +44,34 @@ const MainContent = () => {
         <main id='main-info-content' ref={mainRef}>
             <section className='infoContent'>
                 <div id='inicio-text' className='text_about_me'>
-                    <h3 id='h3-about-me' title='Apresentação sobre'>
+                    <h3 id='h3-about-me'>
                         Sobre mim <LuArrowBigDownDash id='arrow_me' />
                     </h3> 
                     
-                    <lord-icon 
-                        id="icon-man-people" 
-                        src="https://cdn.lordicon.com/daeumrty.json"  
-                        colors="primary:#d59f80,secondary:#848484,tertiary:#0a4e5c,quaternary:#242424" 
-                        delay="1730" 
-                        state="hover-hower" 
-                        trigger="loop"
-                        style={{ width: '160px', height: '160px' }}>
-                    </lord-icon>
+                    <div className="icon-wrapper">
+                        <lord-icon 
+                            id="icon-man-people" 
+                            src="https://cdn.lordicon.com/daeumrty.json"  
+                            colors="primary:#d59f80,secondary:#848484,tertiary:#0a4e5c,quaternary:#242424" 
+                            delay="1730" 
+                            state="hover-hower" 
+                            trigger="loop">
+                        </lord-icon>
+                    </div>
 
-                    <p className='paragraph_text_about_me' title='Vinícius dos Santos Oliveira, 18 anos'>
+                    <p className='paragraph_text_about_me intro-name'>
                         Me chamo Vinícius. Tenho 18 anos.
                     </p>
-                    <p id='p-box' className='paragraph_text_about_me' title='Desenvolvedor Web - Frontend'>
-                        Sou um Desenvolvedor Web - Frontend, gosto bastante de tecnologia.
-                        Tenho o foco em criar interfaces modernas e funcionais. Atualmente estudo as tecnologias essenciais para a web: HTML, CSS, JavaScript e React.
-                        Estou em busca da minha primeira oportunidade profissional na área de tecnologia, 
-                        onde possa contribuir com minhas habilidades, aprender e evoluir constantemente como desenvolvedor.
-                    </p>
+                    
+                    <div id='p-box' className='paragraph_text_about_me'>
+                        <p>
+                            Sou um Desenvolvedor Web - Frontend, gosto muito de tecnologia. 
+                            Foco em criar interfaces modernas, funcionais e centradas no usuário.
+                        </p>
+                        <p>
+                            Atualmente, dedico meus estudos ao ecossistema front-end, dominando <strong>HTML5, CSS3, JavaScript (ES6+) e React</strong>. Estou em busca da minha primeira oportunidade profissional, onde eu possa aplicar minha base técnica, contribuir com projetos reais e acelerar meu desenvolvimento como programador.
+                        </p>
+                    </div>
                 </div>          
             </section>
 
