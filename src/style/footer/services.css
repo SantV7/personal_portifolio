@@ -3,8 +3,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.075), rgba(2, 6, 16, 0.989)), url(../../assets/img/laptop_img.jpg);
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(2, 6, 16, 0.989)), url(../../assets/img/laptop_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -12,110 +12,80 @@ footer {
     text-align: center;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    width: 100%;
+    padding: 60px 0;
 }
 
-footer > #services_info { 
+#services_info { 
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
-    padding-top: 50px;
-    flex-flow: column nowrap;
-    padding-bottom: 90px;
+    flex-direction: column;
     font-weight: 500;
-    font-size: 32px;
 }
 
-footer > #services_info > p {
-   
+#services_info > p {
     border-bottom: 3px solid blue;
     color: white;
     font-size: 33px;
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
-footer > #services_info  > .text_footer {
-    margin: 5px;
-    border-radius: 4px;
-    padding: 4px;
-}
-
-footer > #services_info > span {
+#services_info > span {
     color: rgb(244, 244, 252);
     font-size: 26px;
     border-bottom: 3px solid orange;
-}
-
-footer > #area_icons_contact {
-    margin-top: 135px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 45px;
-    padding: 30px 5px;
+    gap: 10px;
 }
 
-footer > #area_icons_contact > a > #instagram_icon {
-    color: rgb(37, 92, 243);
+#area_icons_contact {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
 }
 
-footer > #area_icons_contact > a {
-    transition: 0.66s;
-}
-footer > #area_icons_contact > a:hover {
-    scale: 1.25;
+.icones_contact_link {
+    transition: transform 0.3s ease;
 }
 
-footer > #area_icons_contact > a > #yt_icon {
-    color: red;
+.icones_contact_link:hover {
+    transform: scale(1.2);
 }
 
-footer > #area_icons_contact > a > #linkedin_icon {
-    color: rgb(109, 109, 255);
-}
- 
-footer > #area_icons_contact > a > #github_icon {
-    color: rgb(53, 66, 203);
-}
+#instagram_icon { color: rgb(37, 92, 243); }
+#yt_icon { color: red; }
+#linkedin_icon { color: rgb(109, 109, 255); }
+#github_icon { color: white; }
+#email_icon { color: white; }
 
-footer > #area_icons_contact > a > #email_icon {
-    transition: ease-in-out 0.3s;
-    color: rgb(255, 255, 255);
-}
-
-footer > #area_icons_contact > a > #email_icon:hover {
-    color: rgb(193, 193, 247);
-}
-
-footer > #area_icons_contact > .icones_contact_link .icons_contact {
-    transition:  ease 0.6s;
+.icons_contact {
     cursor: pointer;
     border-bottom: 4px solid transparent;
     padding-bottom: 8px;
+    transition: border-color 0.3s ease;
 }
 
-footer > #area_icons_contact > .icones_contact_link .icons_contact:hover {
-    border-bottom: 4px solid rgb(0, 0, 255);
+.icons_contact:hover {
+    border-bottom-color: blue;
 }
 
-
-footer > #area_icons_contact > .icons_contact:hover {
-    border-bottom: 3px solid rgb(67, 115, 248);
-}
-
-
-
-
-/* MOBILE */
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     footer {
-       height: 100%;
-       top: 1676px;
+        margin-top: 40px;
     }
 
-    footer > #area_icons_contact {
-        gap: 25px;
+    #area_icons_contact {
+        gap: 20px;
     }
     
+    #services_info > p { font-size: 28px; }
+    #services_info > span { font-size: 20px; }
 }
