@@ -6,19 +6,17 @@ import './style/projects/projects.css'
 import { useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
 
-
 function App() {
-
   useEffect(() => {
-
     ScrollReveal().reveal('.card', {
       reset: true,
-      easing: 'ease-out',
-      duration: 2000,
-      delay:134
-    },)
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      duration: 1200,
+      distance: '40px',
+      origin: 'bottom',
+      interval: 100
+    })
   }, [])
-
 
   return (
     <>
@@ -31,32 +29,29 @@ function App() {
         </header>
 
         <div className="card-projects">
-          <div className="card card-one">
-             <div className="card-img img-project-1" alt='imagem de projeto - pizzaria'></div>
-             <div className="tittle-project tittle-project-2"><p>Pizzaria</p> 
-             <a target='_blank' role='link' rel='next' className='btn-see-project' href="https://pizzaria-zeta-six.vercel.app/">Ver site</a></div>
+          <div className="card">
+            <div className="card-img img-project-1"></div>
+            <div className="tittle-project">
+              <p>Pizzaria</p> 
+              <a target='_blank' rel='noopener noreferrer' className='btn-see-project' href="https://pizzaria-zeta-six.vercel.app/">Ver site</a>
+            </div>
           </div>
           
-          <div className="card card-two">
-             <div className="card-img img-project-2" alt='imagem de projeto - Blog'></div>
-             <div className="tittle-project tittle-project-2"><p>Blog</p> 
-             <a target='_blank' role='link' rel='next' className='btn-see-project' href="#">Em criação...</a></div>
+          <div className="card">
+            <div className="card-img img-project-3"></div>
+            <div className="tittle-project">
+              <p>Formulário</p> 
+              <a target='_blank' rel='noopener noreferrer' className='btn-see-project' href="https://formulario-eta-six.vercel.app/">Ver site</a>
+            </div>
           </div>
-          
-          <div className="card card-three">
-             <div className="card-img img-project-3" alt='imagem de projeto - formlário'></div>
-             <div className="tittle-project tittle-project-3"><p>Formulário</p> 
-             <a target='_blank' role='link' rel='next' className='btn-see-project' href="https://formulario-eta-six.vercel.app/">Ver site</a></div>
-          </div>
-          
 
-          <div className="card card-four">
-             <div className="card-img img-project-4" alt='imagem de projeto 4'></div>
-             <div className="tittle-project tittle-project-4"><p>Dashboard</p> 
-             <a target='_blank' role='link' rel='next' className='btn-see-project' href="https://dashboard-coins.vercel.app/">Ver site</a></div>
+          <div className="card">
+            <div className="card-img img-project-4"></div>
+            <div className="tittle-project">
+              <p>Dashboard</p> 
+              <a target='_blank' rel='noopener noreferrer' className='btn-see-project' href="https://dashboard-coins.vercel.app/">Ver site</a>
+            </div>
           </div>
-          
-
         </div>
       </section>
 
