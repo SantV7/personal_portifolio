@@ -27,6 +27,23 @@ main {
     align-items: center;
     flex-flow: column nowrap;
     margin: 20px 0;
+
+    #area-curriculo {
+        border: 2px solid rgb(161, 186, 255);
+        border-radius: 25px;
+        padding: 10px 30px 10px 30px;
+        cursor: pointer;
+        margin-top: 13px;
+        margin-bottom: 10px;
+        background-color: rgb(74, 82, 128);
+
+        a {
+            text-decoration: none;
+            font-size: 1.16em;
+            font-weight: 550;
+            color: rgb(255, 255, 255);
+        }
+    }
 }
 
 #icon-man-people {
@@ -46,17 +63,7 @@ main {
 .intro-name {
     font-size: 1.4rem;
     font-weight: 600;
-    border: 2px solid rgb(119, 161, 252);
-    border-radius: 15px;
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(157, 157, 247, 0.199);
-    margin-bottom: 25px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.238);
+    margin-bottom: 45px;
 }
 
 #p-box {

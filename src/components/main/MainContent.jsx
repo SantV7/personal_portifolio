@@ -4,6 +4,7 @@ import Skills from './Skills';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import curriculo from '../../assets/Curriculo_Vinicius_dos_santos_oliveira.pdf'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,7 +60,7 @@ const MainContent = () => {
                         </lord-icon>
 
                         <div id='area-curriculo'>
-                            <h3>Currículo</h3>
+                            <a target='_blank' href={curriculo} >Currículo</a>
                         </div>
                     </div>
 
