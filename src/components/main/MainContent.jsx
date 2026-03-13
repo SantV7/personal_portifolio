@@ -1,7 +1,7 @@
 import '../../style/main/mainContent.css'
 import { LuArrowBigDownDash } from "react-icons/lu";
 import Skills from './Skills';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import curriculo from '../../assets/Curriculo_Vinicius_dos_santos_oliveira.pdf'
@@ -9,6 +9,7 @@ import curriculo from '../../assets/Curriculo_Vinicius_dos_santos_oliveira.pdf'
 gsap.registerPlugin(ScrollTrigger);
 
 const MainContent = () => {
+
     const mainRef = useRef(null);
 
     useEffect(() => {
@@ -41,6 +42,9 @@ const MainContent = () => {
         return () => ctx.revert();
     }, []);
 
+    const [showOptions, setShowOptions] = useState(false)
+
+
     return (
         <main id='main-info-content' ref={mainRef}>
             <section className='infoContent'>
@@ -60,8 +64,17 @@ const MainContent = () => {
                         </lord-icon>
 
                         <div id='area-curriculo'>
-                            <a target='_blank' href={curriculo} >Currículo</a>
+                            <a onClick={() => setShowOptions(true)}>Currículo</a>
                         </div>
+
+                        {
+                            showOptions
+                            ? <div id='menu-options'>
+                                <a target='_blank' href={curriculo}>Visualizar</a>
+                                <a href={curriculo} download={curriculo}>Baixar</a>
+                              </div>
+                            :  ''
+                        }
                     </div>
 
                     <p className='paragraph_text_about_me intro-name'>
