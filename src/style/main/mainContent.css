@@ -44,7 +44,17 @@ main {
 .intro-name {
     font-size: 1.4rem;
     font-weight: 600;
+    border: 2px solid rgb(119, 161, 252);
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(157, 157, 247, 0.199);
     margin-bottom: 25px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.238);
 }
 
 #p-box {
@@ -78,6 +88,8 @@ main {
     margin-top: 60px;
     height: 2px;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .infoContent {
