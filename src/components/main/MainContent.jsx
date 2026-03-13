@@ -4,13 +4,14 @@ import Skills from './Skills';
 import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { IoCloseCircleOutline } from "react-icons/io5";
 import curriculo from '../../assets/Curriculo_Vinicius_dos_santos_oliveira.pdf'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const MainContent = () => {
-
     const mainRef = useRef(null);
+    const [showOptions, setShowOptions] = useState(false);
 
     useEffect(() => {
         const ctx = gsap.context(() => {
@@ -42,9 +43,6 @@ const MainContent = () => {
         return () => ctx.revert();
     }, []);
 
-    const [showOptions, setShowOptions] = useState(false)
-
-
     return (
         <main id='main-info-content' ref={mainRef}>
             <section className='infoContent'>
@@ -67,14 +65,17 @@ const MainContent = () => {
                             <a onClick={() => setShowOptions(true)}>Currículo</a>
                         </div>
 
-                        {
-                            showOptions
-                            ? <div id='menu-options'>
-                                <a target='_blank' href={curriculo}>Visualizar</a>
-                                <a href={curriculo} download={curriculo}>Baixar</a>
-                              </div>
-                            :  ''
-                        }
+                        {showOptions && (
+                            <div id='menu-options'>
+                                <header onClick={() => setShowOptions(false)}>
+                                    <IoCloseCircleOutline />
+                                </header>
+                                <div id='flex_a'>
+                                    <a target='_blank' rel="noreferrer" href={curriculo}>Visualizar</a>
+                                    <a href={curriculo} download="Curriculo_Vinicius.pdf">Baixar</a>
+                                </div>
+                            </div>
+                        )}
                     </div>
 
                     <p className='paragraph_text_about_me intro-name'>

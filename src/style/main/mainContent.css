@@ -27,28 +27,95 @@ main {
     align-items: center;
     flex-flow: column nowrap;
     margin: 70px 0;
+    position: relative;
+}
 
-    #area-curriculo {
-        border: 2px solid rgb(161, 186, 255);
-        border-radius: 25px;
-        padding: 10px 30px 10px 30px;
-        cursor: pointer;
-        margin-top: 13px;
-        margin-bottom: 10px;
-        background-color: rgb(74, 82, 128);
+#area-curriculo {
+    border: 2px solid rgb(161, 186, 255);
+    border-radius: 25px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    background-color: rgb(74, 82, 128);
+    transition: 0.3s;
+}
 
-        a {
-            text-decoration: none;
-            font-size: 1.16em;
-            font-weight: 550;
-            color: rgb(255, 255, 255);
-        }
-    }
+#area-curriculo:hover {
+    background-color: rgb(90, 100, 160);
+}
+
+#area-curriculo a {
+    text-decoration: none;
+    font-size: 1.16em;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
 }
 
 #icon-man-people {
     width: 180px;
     height: 180px;
+}
+
+#menu-options {
+    padding: 30px 20px 20px 20px;
+    border-radius: 15px;
+    background-color: rgb(34, 34, 71);
+    border: 1px solid rgba(161, 186, 255, 0.4);
+    position: absolute;
+    z-index: 100;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 260px;
+}
+
+#menu-options header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #ff5e5e;
+    line-height: 0;
+    transition: 0.2s;
+}
+
+#menu-options header:hover {
+    transform: scale(1.1);
+}
+
+#flex_a {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+#menu-options a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(100, 100, 180);
+    padding: 12px 25px;
+    border: 2px solid white;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#menu-options a:hover {
+    transform: translateY(-3px);
+    background-color: rgb(120, 120, 220);
 }
 
 .text_about_me > h3 {
@@ -76,12 +143,11 @@ main {
     line-height: 1.6;
     text-align: left;
     font-size: 1.1rem;
-    transition: ease 0.8s;
-
+    transition: 0.4s;
 }
 
 #p-box:hover {
-    scale: 1.055 !important; 
+    transform: scale(1.03);
 }
 
 #p-box p + p {
@@ -97,8 +163,6 @@ main {
     margin-top: 60px;
     height: 2px;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .infoContent {
@@ -121,5 +185,19 @@ main {
 
     .icon-wrapper {
         flex-flow: row nowrap;
+        gap: 20px;
+    }
+
+    #menu-options {
+        min-width: 450px;
+    }
+
+    #flex_a {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #menu-options a {
+        width: 180px;
     }
 }
