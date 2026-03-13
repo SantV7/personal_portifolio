@@ -24,6 +24,8 @@ main {
 .icon-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
     margin: 20px 0;
 }
 
@@ -108,5 +110,9 @@ main {
     #p-box {
         font-size: 1.25rem;
         padding: 40px;
+    }
+
+    .icon-wrapper {
+        flex-flow: row nowrap;
     }
 }

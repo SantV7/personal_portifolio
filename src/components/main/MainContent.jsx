@@ -45,7 +45,7 @@ const MainContent = () => {
             <section className='infoContent'>
                 <div id='inicio-text' className='text_about_me'>
                     <h3 id='h3-about-me'>
-                        Sobre mim <LuArrowBigDownDash id='arrow_me' />
+                        Sobre mim <LuArrowBigDownDash id='arrow_me'/>
                     </h3> 
                     
                     <div className="icon-wrapper">
@@ -57,6 +57,10 @@ const MainContent = () => {
                             state="hover-hower" 
                             trigger="loop">
                         </lord-icon>
+
+                        <div id='area-curriculo'>
+                            <h3>Currículo</h3>
+                        </div>
                     </div>
 
                     <p className='paragraph_text_about_me intro-name'>
