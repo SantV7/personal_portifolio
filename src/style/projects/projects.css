@@ -70,6 +70,8 @@
 .img-project-3 { background-image: url(../../assets/img/image\ copy.png); }
 .img-project-4 { background-image: url(../../assets/img/{A1BEE2E5-B7E6-41CD-BE1A-38583C809096}.png); }
 
+/* tenho que adicionar a img do projeto mobile */
+
 .tittle-project {
     display: flex;
     justify-content: space-between;
