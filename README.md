@@ -1,10 +1,5 @@
-# React + Vite
-
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
+Portfólio simples com intuito de demostrar coisas que sei e aprendi ao decorrer do tempo, mostrando minhas skills e abas de contact, infos das linguagens e tecnologias.
+Fiz puramente, sem uso de IA, já que é meu portfólio, resolvi não me jogar pra IA e deixar ser feita por elas, o portfólio foi feito de forma simples,
+mas de forma intuitiva e sem grandes exageros que deixam o User confuso.
 
 link for project: https://personal-portifolio-santv7.vercel.app/
