@@ -84,7 +84,7 @@ const MainContent = () => {
                     
                     <div id='p-box' className='paragraph_text_about_me'>
                         <p>
-                            Sou um Desenvolvedor Web - Frontend, gosto muito de tecnologia. 
+                            Sou um Desenvolvedor Web - Frontend. 
                             Foco em criar interfaces modernas, funcionais e centradas no usuário.
                         </p>
                         <p>
