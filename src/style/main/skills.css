@@ -30,12 +30,12 @@
     cursor: pointer;
 }
 
-#icon_html { color: rgba(227, 79, 38, 0.4); }
-#icon_css { color: rgba(21, 114, 182, 0.4); }
-#icon_js { color: rgba(247, 223, 30, 0.4); }
-#icon_react { color: rgba(97, 218, 251, 0.4); }
-#icon_git { color: rgba(240, 80, 50, 0.4); }
-#icon_github { color: rgba(255, 255, 255, 0.4); }
+#icon_html { color: rgba(227, 79, 38); }
+#icon_css { color: rgba(21, 114, 182); }
+#icon_js { color: rgba(247, 223, 30); }
+#icon_react { color: rgba(97, 218, 251); }
+#icon_git { color: rgba(240, 80, 50); }
+#icon_github { color: rgba(255, 255, 255); }
 
 .skill-icon-wrapper:hover .icons_skills {
     transform: scale(1.2);
@@ -99,7 +99,7 @@
     position: absolute;
     top: -35px;
     left: 50%;
-    transform: translateX(-50%) rotate(-15deg);
+    transform: translateX(-50%);
     font-size: 1.5rem;
     color: #675afa;
     pointer-events: none;
