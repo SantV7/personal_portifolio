@@ -84,11 +84,11 @@ const MainContent = () => {
                     
                     <div id='p-box' className='paragraph_text_about_me'>
                         <p>
-                            Sou um Desenvolvedor Web - Frontend. 
-                            Foco em criar interfaces modernas, funcionais e centradas no usuário.
+                            Desenvolvedor Web - Frontend. 
+                            Crio interfaces modernas, funcionais e centradas em resolver problemas e criar soluções para o usuário.
                         </p>
                         <p>
-                            Atualmente, dedico meus estudos ao ecossistema front-end, dominando <strong>HTML5, CSS3, JavaScript (ES6+) e React</strong>. Estou em busca da minha primeira oportunidade profissional, onde eu possa aplicar minha base técnica, contribuir com projetos reais e acelerar meu desenvolvimento como programador.
+                            Dedico meus estudos ao ecossistema front-end, sempre estudando e praticando <strong>HTML5, CSS3, JavaScript (ES6+) e React</strong>. Estou em busca da minha primeira oportunidade profissional, onde eu possa aplicar meus conhecimentos, contribuir com projetos e sistemas com objetivos em melhorar o dia a dia do usuário, e acelerar meu desenvolvimento como programador Frontend.
                         </p>
                     </div>
                 </div>          
