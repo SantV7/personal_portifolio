@@ -79,7 +79,7 @@ const MainContent = () => {
                     </div>
 
                     <p className='paragraph_text_about_me intro-name'>
-                        Me chamo Vinícius. Tenho 18 anos.
+                        VINÍCIUS
                     </p>
                     
                     <div id='p-box' className='paragraph_text_about_me'>
