@@ -13,9 +13,6 @@ const Header = () => {
     const closeClickLink = () => {
         setShowMenu(!showMenu)
     }
-
-
-
     
     return(
         <>

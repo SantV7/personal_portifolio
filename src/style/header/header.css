@@ -35,8 +35,8 @@
         transition: ease 0.3s;  
 
         &:hover {
-            
             background-color: rgba(17, 17, 97, 0.183);
+            
             .icon-header-hover {
                 opacity: 1;
             }
