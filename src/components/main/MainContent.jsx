@@ -43,6 +43,11 @@ const MainContent = () => {
         return () => ctx.revert();
     }, []);
 
+
+
+
+
+    
     return (
         <main id='main-info-content' ref={mainRef}>
             <section className='infoContent'>

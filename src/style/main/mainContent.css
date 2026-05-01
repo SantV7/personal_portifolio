@@ -137,7 +137,7 @@
 }
 
 .text_about_me > h3 {
-    font-size: 2rem;
+    font-size: 2.05rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +148,7 @@
 }
 
 .intro-name {
-    font-size: 2.2em;
+    font-size: 1.72em;
     color: white;
     font-weight: 600;
     padding: 0px 10px;
@@ -199,7 +199,11 @@
     }
     
     .text_about_me {
+        
         max-width: 800px;
+    }
+    .text_about_me > h3 {
+        font-size: 2.4rem;
     }
 
     .intro-name {
