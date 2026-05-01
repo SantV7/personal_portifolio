@@ -18,12 +18,12 @@ const MainContent = () => {
             const tl = gsap.timeline({ defaults: { ease: 'power2.out' } });
 
             tl.fromTo('#h3-about-me', 
-                { y: -100, opacity: 0 }, 
-                { y: 0, opacity: 1, duration: 1.2 }
+                { y: -60, opacity: 0 }, 
+                { y: 0, opacity: 1, duration: 0.9 }
             )
             .fromTo('.paragraph_text_about_me', 
                 { x: -50, opacity: 0 }, 
-                { x: 0, opacity: 1, duration: 0.8, stagger: 0.2 }, 
+                { x: 0, opacity: 1, duration: 0.65, stagger: 0.2 }, 
                 "-=0.5"
             );
 
@@ -35,7 +35,7 @@ const MainContent = () => {
                 },
                 opacity: 0,
                 y: 50,
-                duration: 1.2,
+                duration: 0.95,
                 ease: 'power2.out'
             });
         }, mainRef);
