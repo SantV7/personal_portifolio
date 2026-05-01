@@ -55,6 +55,7 @@ const Skills = () => {
         });
     }, []);
 
+
     useEffect(() => {
         if (activeTech) {
             gsap.fromTo(explicationRef.current, 
@@ -102,7 +103,7 @@ const Skills = () => {
                     </div>
                 ) : (
                     <div className="classExplication placeholder">
-                        <p>Passe o mouse sobre um ícone para ler a descrição</p>
+                        <p>Interaja com um ícone para ler a descrição</p>
                     </div>
                 )}
             </div>
