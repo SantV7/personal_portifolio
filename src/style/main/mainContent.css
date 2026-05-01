@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     margin-top: 100px;
     width: 100%;
 }
@@ -156,13 +155,13 @@
     padding: 30px;
     border-radius: 12px;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-    border: 2px solid rgb(172, 166, 255);
+    border: 1px solid rgb(172, 166, 255);
     background: linear-gradient(105deg, rgb(58, 59, 70), rgb(34, 30, 59));
     line-height: 1.6;
     text-align: left;
     font-size: 1.1rem;
     transition: 0.4s;
+    width: 100%;
 }
 
 #p-box:hover {
