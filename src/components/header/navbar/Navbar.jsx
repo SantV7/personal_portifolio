@@ -11,10 +11,10 @@ const Navbar = () => {
         gsap.fromTo('.li-gsap', {
             opacity: 0.65,
             scale: 0.95,
-            y: -140
+            y: -100
         }, {
             y: 0, 
-            duration: 1.8,
+            duration: 1.3,
             ease: 'power2',
             opacity: 1
         })
