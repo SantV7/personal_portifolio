@@ -17,11 +17,12 @@
 }
 
 #area_skills {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
     margin: 50px 0;
-    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
 }
 
 .icons_skills {
@@ -50,13 +51,8 @@
     font-size: 30px !important;
 }
 
-.ui-bg {
-    background: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
-}
-
-.ux-bg {
-    background: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 100%);
-}
+.ui-bg { background: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%); }
+.ux-bg { background: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 100%); }
 
 .skill-icon-wrapper:hover .icons_skills {
     transform: scale(1.2);
@@ -102,6 +98,7 @@
 .title-figma { color: #F24E1E; }
 .title-ui { color: #0093E9; }
 .title-ux { color: #FF6A88; }
+.title-github { color: #FFFFFF; }
 
 .content-explication p {
     font-size: 1.15rem;
@@ -125,7 +122,8 @@
     pointer-events: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
+    #area_skills { grid-template-columns: repeat(2, 1fr); gap: 30px; }
     #skills-section .logo_skills h3 { font-size: 2.2rem; }
-    .explanation-container { height: 200px; }
+    .explanation-container { height: 220px; }
 }
