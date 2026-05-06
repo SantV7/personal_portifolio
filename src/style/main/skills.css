@@ -30,23 +30,37 @@
     cursor: pointer;
 }
 
-#icon_html { color: rgba(227, 79, 38); }
-#icon_css { color: rgba(21, 114, 182); }
-#icon_js { color: rgba(247, 223, 30); }
-#icon_react { color: rgba(97, 218, 251); }
-#icon_git { color: rgba(240, 80, 50); }
-#icon_github { color: rgba(255, 255, 255); }
+#icon_html { color: #E34F26; }
+#icon_css { color: #1572B6; }
+#icon_js { color: #F7DF1E; }
+#icon_sass { color: #CF649A; }
+#icon_react { color: #61DAFB; }
+#icon_git { color: #F05032; }
+#icon_figma { color: #F24E1E; }
+#icon_github { color: #FFFFFF; }
+
+.custom-box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.ui-bg {
+    background: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.ux-bg {
+    background: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 100%);
+}
 
 .skill-icon-wrapper:hover .icons_skills {
     transform: scale(1.2);
 }
-
-#icon_html:hover { color: rgba(227, 79, 38, 1); }
-#icon_css:hover { color: rgba(21, 114, 182, 1); }
-#icon_js:hover { color: rgba(247, 223, 30, 1); }
-#icon_react:hover { color: rgba(97, 218, 251, 1); }
-#icon_git:hover { color: rgba(240, 80, 50, 1); }
-#icon_github:hover { color: rgba(255, 255, 255, 1); }
 
 .explanation-container {
     width: 100%;
@@ -77,14 +91,17 @@
 .classExplication h3 {
     font-size: 1.6rem;
     margin-bottom: 12px;
-    transition: color 0.3s ease;
 }
 
 .title-html { color: #E34F26; }
 .title-css { color: #1572B6; }
 .title-js { color: #F7DF1E; }
+.title-sass { color: #CF649A; }
 .title-react { color: #61DAFB; }
 .title-git { color: #F05032; }
+.title-figma { color: #F24E1E; }
+.title-ui { color: #0093E9; }
+.title-ux { color: #FF6A88; }
 
 .content-explication p {
     font-size: 1.15rem;
@@ -109,10 +126,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    #skills-section .logo_skills h3 {
-        font-size: 2.2rem;
-    }
-    .explanation-container {
-        height: 200px;
-    }
+    #skills-section .logo_skills h3 { font-size: 2.2rem; }
+    .explanation-container { height: 200px; }
 }
