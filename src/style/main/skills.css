@@ -19,7 +19,7 @@
 #area_skills {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 40px;
+    gap: 80px;
     margin: 50px 0;
     justify-items: center;
     align-items: center;
@@ -123,7 +123,10 @@
 }
 
 @media screen and (max-width: 850px) {
-    #area_skills { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+    #area_skills { 
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px; 
+    }
     #skills-section .logo_skills h3 { font-size: 2.2rem; }
     .explanation-container { height: 220px; }
 }
