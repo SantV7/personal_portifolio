@@ -25,6 +25,17 @@ function App() {
   
   return (
     <>
+
+    <div className="circle-orin">
+      <div id='circle_orin_1'></div>
+      <div id='circle_orin_2'></div>
+      <div id='circle_orin_3'></div>
+      <div id='circle_orin_4'></div>
+      <div id='circle_orin_5'></div>
+    </div>
+    {/* Fazer animações pro intro */}
+
+
       <Header />
       <MainContent />
 
