@@ -1,11 +1,14 @@
 import '../../style/main/mainContent.css'
-import { LuArrowBigDownDash } from "react-icons/lu";
-import Skills from './Skills';
-import { useEffect, useRef, useState } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { IoCloseCircleOutline } from "react-icons/io5";
+import { LuArrowBigDownDash } from "react-icons/lu"
+import Skills from './Skills'
+import { useEffect, useRef, useState } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { IoCloseCircleOutline } from "react-icons/io5"
 import curriculo from '../../assets/Curriculo_Vinicius_dos_santos_oliveira.pdf'
+import { Download } from 'lucide-react';
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,7 +18,7 @@ const MainContent = () => {
 
     useEffect(() => {
         const ctx = gsap.context(() => {
-            const tl = gsap.timeline({ defaults: { ease: 'power2.out' } });
+            const tl = gsap.timeline({ defaults: { ease: 'power2.out' } })
 
             tl.fromTo('#h3-about-me', 
                 { y: -60, opacity: 0 }, 
@@ -25,7 +28,7 @@ const MainContent = () => {
                 { x: -50, opacity: 0 }, 
                 { x: 0, opacity: 1, duration: 0.65, stagger: 0.2 }, 
                 "-=0.5"
-            );
+            )
 
             gsap.from('#skills_container', {
                 scrollTrigger: {
@@ -38,9 +41,8 @@ const MainContent = () => {
                 duration: 0.95,
                 ease: 'power2.out'
             });
-        }, mainRef);
-
-        return () => ctx.revert();
+        }, mainRef)
+        return () => ctx.revert()
     }, []);
 
 
@@ -67,7 +69,7 @@ const MainContent = () => {
                         </lord-icon>
 
                         <div id='area-curriculo'>
-                            <a onClick={() => setShowOptions(true)}>Currículo</a>
+                            <a onClick={() => setShowOptions(true)}> <Download  size={19}/> Currículo</a>
                         </div>
 
                         {showOptions && (

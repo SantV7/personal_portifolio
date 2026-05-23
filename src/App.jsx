@@ -6,6 +6,7 @@ import './style/projects/projects.css'
 import { useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
 
+
 function App() {
   useEffect(() => {
     ScrollReveal().reveal('.card', {
