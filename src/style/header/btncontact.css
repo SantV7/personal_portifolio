@@ -10,11 +10,11 @@
     font-size: 20.6px;
     font-weight: 600;
     padding: 12px 25px;
-    flex-shrink: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);    
     animation: pulseBtn ease-in 1.6s infinite;
 
     &:hover {
+        padding: 13.5px 27px;
         text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.699) ;   
         background-color: rgb(128, 128, 207);
     }
