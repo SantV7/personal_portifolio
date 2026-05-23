@@ -29,7 +29,7 @@ const Header = () => {
                   <li><a onClick={() => closeClickLink()} href="#main-info-content">Inicio</a></li>
                   <li><a onClick={() => {
                     closeClickLink()
-                  }} href="#">Projetos</a></li>
+                  }} href="#projects-area">Projetos</a></li>
                   <li><a onClick={() => closeClickLink()} href="#transition_for_skills">Skills</a></li>          
                   <BtnContact />
               </ul>
