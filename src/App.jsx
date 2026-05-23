@@ -11,7 +11,7 @@ function App() {
     ScrollReveal().reveal('.card', {
       reset: true,
       easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      duration: 1200,
+      duration: 1100,
       distance: '40px',
       origin: 'bottom',
       interval: 100
@@ -28,9 +28,9 @@ function App() {
 
     <div className="circle-orin">
       <div id='circle_orin_1'></div>
-      <div id='circle_orin_2'></div>
+      <div className='animation_red' id='circle_orin_2'></div>
       <div id='circle_orin_3'></div>
-      <div id='circle_orin_4'></div>
+      <div className='animation_red' id='circle_orin_4'></div>
       <div id='circle_orin_5'></div>
     </div>
     {/* Fazer animações pro intro */}
