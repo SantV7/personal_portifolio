@@ -85,7 +85,7 @@ const MainContent = () => {
                         )}
                     </div>
 
-                    <p className='paragraph_text_about_me intro-name'>Desenvolvedor Web - Frontend</p>
+                    <p className='paragraph_text_about_me intro-name'>Engenheiro de software | Desenvolvedor frontend</p>
                     
                     <div id='p-box' className='paragraph_text_about_me'>
                         <p>
